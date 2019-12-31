@@ -290,7 +290,7 @@
     * [kubectl 概述](reference/kubectl/overview.md)
   - Kubernetes Api
     * [API 参考](reference/kubernetes-api/_index.md)
-    * [v1.15](reference/kubernetes-api/api-index.md)
+    * [v1.17](reference/kubernetes-api/api-index.md)
     * [知名标签（Label）、注解（Annotation）和 Taints](reference/kubernetes-api/labels-annotations-taints.md)
   - Setup Tools
     - Kubeadm
