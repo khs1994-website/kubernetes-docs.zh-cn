@@ -97,7 +97,6 @@
       * [Daemon Set](concepts/workloads/controllers/daemonset.md)
       * [Deployments](concepts/workloads/controllers/deployment.md)
       * [垃圾收集](concepts/workloads/controllers/garbage-collection.md)
-      * [Job 从运行到完成](concepts/workloads/controllers/jobs-run-completion.md)
       * [Replica Set](concepts/workloads/controllers/replicaset.md)
       * [Replication Controller](concepts/workloads/controllers/replicationcontroller.md)
       * [Stateful Sets](concepts/workloads/controllers/statefulset.md)
@@ -257,6 +256,7 @@
     * [Replication Controller](reference/glossary/replication-controller.md)
     * [资源配额](reference/glossary/resource-quota.md)
     * [评审者](reference/glossary/reviewer.md)
+    * [Rkt](reference/glossary/rkt.md)
     * [Secret](reference/glossary/secret.md)
     * [安全上下文（Security Context）](reference/glossary/security-context.md)
     * [选择算符](reference/glossary/selector.md)
@@ -434,7 +434,6 @@
     * [校验节点设置](setup/best-practices/node-conformance.md)
   - Independent
     * [使用 kubeadm 创建一个单主集群](setup/independent/create-cluster-kubeadm.md)
-    * [安装 kubeadm](setup/independent/install-kubeadm.md)
   - Learning Environment
     * [学习环境](setup/learning-environment/_index.md)
     * [使用 Minikube 安装 Kubernetes](setup/learning-environment/minikube.md)
@@ -449,6 +448,7 @@
         * [使用 kubeadm 定制控制平面配置](setup/production-environment/tools/kubeadm/control-plane-flags.md)
         * [高可用拓扑选项](setup/production-environment/tools/kubeadm/ha-topology.md)
         * [利用 kubeadm 创建高可用集群](setup/production-environment/tools/kubeadm/high-availability.md)
+        * [安装 kubeadm](setup/production-environment/tools/kubeadm/install-kubeadm.md)
         * [使用 kubeadm 配置集群中的每个 kubelet](setup/production-environment/tools/kubeadm/kubelet-integration.md)
         * [配置您的 kubernetes 集群以自托管控制平台](setup/production-environment/tools/kubeadm/self-hosting.md)
         * [使用 kubeadm 创建一个高可用 etcd 集群](setup/production-environment/tools/kubeadm/setup-ha-etcd-with-kubeadm.md)
@@ -529,7 +529,7 @@
     * [自定义 DNS 服务](tasks/administer-cluster/dns-custom-nameservers.md)
     * [Debug DNS 方案](tasks/administer-cluster/dns-debugging-resolution.md)
     * [集群 DNS 服务自动伸缩](tasks/administer-cluster/dns-horizontal-autoscaling.md)
-    * [启用端点切片](tasks/administer-cluster/enabling-endpoint-slices.md)
+    * [启用端点切片](tasks/administer-cluster/enabling-endpointslices.md)
     * [静态加密 Secret 数据](tasks/administer-cluster/encrypt-data.md)
     * [为节点发布扩展资源](tasks/administer-cluster/extended-resource-node.md)
     * [关键插件 Pod 的调度保证](tasks/administer-cluster/guaranteed-scheduling-critical-addon-pods.md)
@@ -564,6 +564,7 @@
     * [从私有仓库拉取镜像](tasks/configure-pod-container/pull-image-private-registry.md)
     * [配置 Pod 的服务质量](tasks/configure-pod-container/quality-service-pod.md)
     * [在 Pod 中的容器之间共享进程命名空间](tasks/configure-pod-container/share-process-namespace.md)
+    * [创建静态 Pod](tasks/configure-pod-container/static-pod.md)
     * [将 Docker Compose 文件转换为 Kubernetes 资源](tasks/configure-pod-container/translate-compose-kubernetes.md)
   - Debug Application Cluster
     * [监控、日志和排错](tasks/debug-application-cluster/_index.md)
@@ -659,8 +660,6 @@
   * [示例任务的模板](tasks/example-task-template.md)
 - Templates
   * [Index](templates/index.md)
-- Tools
-  * [安装 Minikube](tools/install-minikube.md)
 - Tutorials
   - Clusters
     * [集群](tutorials/clusters/_index.md)
@@ -701,8 +700,6 @@
   * [你好 Minikube](tutorials/hello-minikube.md)
 - User Journeys
   - Users
-    - App Developer
-      * [高级主题](user-journeys/users/app-developer/advanced.md)
     - Cluster Operator
       * [基础知识](user-journeys/users/cluster-operator/foundational.md)
       * [中级](user-journeys/users/cluster-operator/intermediate.md)
