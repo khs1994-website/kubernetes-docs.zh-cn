@@ -4,6 +4,7 @@
   - Architecture
     * [Kubernetes 架构](concepts/architecture/_index.md)
     * [云控制器管理器的基础概念](concepts/architecture/cloud-controller.md)
+    * [控制器](concepts/architecture/controller.md)
     * [Master 节点通信](concepts/architecture/master-node-communication.md)
     * [节点](concepts/architecture/nodes.md)
   - Cluster Administration
