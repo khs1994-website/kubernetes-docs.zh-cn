@@ -81,6 +81,7 @@
     * [Ingress 控制器](concepts/services-networking/ingress-controllers.md)
     * [Ingress](concepts/services-networking/ingress.md)
     * [网络策略](concepts/services-networking/network-policies.md)
+    * [Service 拓扑](concepts/services-networking/service-topology.md)
     * [Services](concepts/services-networking/service.md)
   - Storage
     * [存储](concepts/storage/_index.md)
@@ -499,7 +500,7 @@
     - Kubeadm
       * [用 kubeadm 进行管理](tasks/administer-cluster/kubeadm/_index.md)
       * [使用 kubeadm 进行证书管理](tasks/administer-cluster/kubeadm/kubeadm-certs.md)
-      * [将 kubeadm 集群从 v1.13 升级到 v1.14](tasks/administer-cluster/kubeadm/kubeadm-upgrade.md)
+      * [升级 kubeadm 集群](tasks/administer-cluster/kubeadm/kubeadm-upgrade.md)
     - Manage Resources
       * [管理内存，CPU 和 API 资源](tasks/administer-cluster/manage-resources/_index.md)
       * [为命名空间配置CPU最小和最大限制](tasks/administer-cluster/manage-resources/cpu-constraint-namespace.md)
@@ -555,6 +556,7 @@
     * [Assign Cpu Resource](tasks/configure-pod-container/assign-cpu-resource.md)
     * [将 Pod 分配给节点](tasks/configure-pod-container/assign-pods-nodes.md)
     * [为容器的生命周期事件设置处理函数](tasks/configure-pod-container/attach-handler-lifecycle-event.md)
+    * [配置存活、就绪和启动探测器](tasks/configure-pod-container/configure-liveness-readiness-startup-probes.md)
     * [配置 Pod 以使用 PersistentVolume 作为存储](tasks/configure-pod-container/configure-persistent-volume-storage.md)
     * [使用 ConfigMap 配置 Pod](tasks/configure-pod-container/configure-pod-configmap.md)
     * [配置 Pod 初始化](tasks/configure-pod-container/configure-pod-initialization.md)
