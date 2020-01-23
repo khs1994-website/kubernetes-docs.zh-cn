@@ -700,11 +700,6 @@
     * [示例：使用 Redis 部署 PHP 留言板应用程序](tutorials/stateless-application/guestbook.md)
   * [教程](tutorials/_index.md)
   * [你好 Minikube](tutorials/hello-minikube.md)
-- User Journeys
-  - Users
-    - Cluster Operator
-      * [基础知识](user-journeys/users/cluster-operator/foundational.md)
-      * [中级](user-journeys/users/cluster-operator/intermediate.md)
 * [生产级别的容器编排系统](README.md)
 * [搜索结果](search.md)
 * [Sitemap](sitemap.md)
