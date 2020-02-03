@@ -100,7 +100,7 @@
       * [Deployments](concepts/workloads/controllers/deployment.md)
       * [垃圾收集](concepts/workloads/controllers/garbage-collection.md)
       * [Replica Set](concepts/workloads/controllers/replicaset.md)
-      * [Replication Controller](concepts/workloads/controllers/replicationcontroller.md)
+      * [Replicationcontroller](concepts/workloads/controllers/replicationcontroller.md)
       * [Stateful Sets](concepts/workloads/controllers/statefulset.md)
       * [已完成资源的 TTL 控制器](concepts/workloads/controllers/ttlafterfinished.md)
     - Pods
