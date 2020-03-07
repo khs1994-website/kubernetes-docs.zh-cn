@@ -151,6 +151,7 @@
     * [Kubernetes API 访问控制](reference/access-authn-authz/controlling-access.md)
     * [动态准入控制](reference/access-authn-authz/extensible-admission-controllers.md)
     * [使用 Node 鉴权](reference/access-authn-authz/node.md)
+    * [使用 RBAC 鉴权](reference/access-authn-authz/rbac.md)
     * [管理 Service Accounts](reference/access-authn-authz/service-accounts-admin.md)
     * [Webhook 模式](reference/access-authn-authz/webhook.md)
   - Command Line Tools Reference
@@ -553,6 +554,7 @@
   - Configure Pod Container
     * [配置 Pods 和容器](tasks/configure-pod-container/_index.md)
     * [Assign Cpu Resource](tasks/configure-pod-container/assign-cpu-resource.md)
+    * [为容器和 Pod 分配内存资源](tasks/configure-pod-container/assign-memory-resource.md)
     * [将 Pod 分配给节点](tasks/configure-pod-container/assign-pods-nodes.md)
     * [为容器的生命周期事件设置处理函数](tasks/configure-pod-container/attach-handler-lifecycle-event.md)
     * [配置存活、就绪和启动探测器](tasks/configure-pod-container/configure-liveness-readiness-startup-probes.md)
