@@ -18,6 +18,7 @@
     * [配置 kubelet 垃圾回收策略](concepts/cluster-administration/kubelet-garbage-collection.md)
     * [日志架构](concepts/cluster-administration/logging.md)
     * [管理资源](concepts/cluster-administration/manage-deployment.md)
+    * [Kubernetes 控制面板的指标](concepts/cluster-administration/monitoring.md)
     * [Kubernetes 中的代理](concepts/cluster-administration/proxies.md)
   - Configuration
     * [配置](concepts/configuration/_index.md)
@@ -252,6 +253,7 @@
     * [Pod](reference/glossary/pod.md)
     * [Pod Preset](reference/glossary/podpreset.md)
     * [抢占](reference/glossary/preemption.md)
+    * [代理](reference/glossary/proxy.md)
     * [QoS 类](reference/glossary/qos-class.md)
     * [数量](reference/glossary/quantity.md)
     * [RBAC（基于角色的访问控制）](reference/glossary/rbac.md)
@@ -433,6 +435,7 @@
 - Setup
   - Best Practices
     * [最佳实践](setup/best-practices/_index.md)
+    * [PKI 证书和要求](setup/best-practices/certificates.md)
     * [创建大型集群](setup/best-practices/cluster-large.md)
     * [校验节点设置](setup/best-practices/node-conformance.md)
   - Independent
