@@ -46,6 +46,7 @@
       * [网络插件](concepts/extend-kubernetes/compute-storage-net/network-plugins.md)
     * [扩展 Kubernetes](concepts/extend-kubernetes/_index.md)
     * [扩展 Kubernetes 集群](concepts/extend-kubernetes/extend-cluster.md)
+    * [Operator 模式](concepts/extend-kubernetes/operator.md)
     * [服务目录](concepts/extend-kubernetes/service-catalog.md)
   - Overview
     - Working With Objects
