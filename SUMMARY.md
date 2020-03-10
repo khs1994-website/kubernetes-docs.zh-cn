@@ -566,6 +566,7 @@
     * [使用 ConfigMap 配置 Pod](tasks/configure-pod-container/configure-pod-configmap.md)
     * [配置 Pod 初始化](tasks/configure-pod-container/configure-pod-initialization.md)
     * [配置 Pod 使用投射卷作存储](tasks/configure-pod-container/configure-projected-volume-storage.md)
+    * [为 Windows 的 pod 和容器配置 RunAsUserName](tasks/configure-pod-container/configure-runasusername.md)
     * [为 Pod 配置服务账户](tasks/configure-pod-container/configure-service-account.md)
     * [配置 Pod 以使用卷进行存储](tasks/configure-pod-container/configure-volume-storage.md)
     * [为容器分派扩展资源](tasks/configure-pod-container/extended-resource.md)
