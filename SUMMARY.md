@@ -158,7 +158,7 @@
     * [Webhook 模式](reference/access-authn-authz/webhook.md)
   - Command Line Tools Reference
     * [命令行工具参考](reference/command-line-tools-reference/_index.md)
-    * [Feature Gates](reference/command-line-tools-reference/feature-gates.md)
+    * [特性门控](reference/command-line-tools-reference/feature-gates.md)
     * [Kube Apiserver](reference/command-line-tools-reference/kube-apiserver.md)
     * [Kube Controller Manager](reference/command-line-tools-reference/kube-controller-manager.md)
     * [Kube Proxy](reference/command-line-tools-reference/kube-proxy.md)
