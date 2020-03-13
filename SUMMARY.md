@@ -170,6 +170,7 @@
     * [准入控制器](reference/glossary/admission-controller.md)
     * [聚合层](reference/glossary/aggregation-layer.md)
     * [注解](reference/glossary/annotation.md)
+    * [API Group](reference/glossary/api-group.md)
     * [应用程序容器](reference/glossary/app-container.md)
     * [应用架构师](reference/glossary/application-architect.md)
     * [应用开发者](reference/glossary/application-developer.md)
