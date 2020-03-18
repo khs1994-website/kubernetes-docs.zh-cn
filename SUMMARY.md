@@ -147,7 +147,7 @@
   - Access Authn Authz
     * [访问 API](reference/access-authn-authz/_index.md)
     * [使用 ABAC 鉴权](reference/access-authn-authz/abac.md)
-    * [使用准入控制插件](reference/access-authn-authz/admission-controllers.md)
+    * [使用准入控制器](reference/access-authn-authz/admission-controllers.md)
     * [授权概述](reference/access-authn-authz/authorization.md)
     * [使用启动引导令牌（Bootstrap Tokens）认证](reference/access-authn-authz/bootstrap-tokens.md)
     * [Kubernetes API 访问控制](reference/access-authn-authz/controlling-access.md)
@@ -665,7 +665,7 @@
   - Tools
     * [安装工具](tasks/tools/_index.md)
     * [安装并设置 kubectl](tasks/tools/install-kubectl.md)
-    * [Install Minikube](tasks/tools/install-minikube.md)
+    * [安装 Minikube](tasks/tools/install-minikube.md)
   * [任务](tasks/_index.md)
   * [示例任务的模板](tasks/example-task-template.md)
 - Templates
