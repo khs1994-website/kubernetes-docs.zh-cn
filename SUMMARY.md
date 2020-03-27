@@ -515,7 +515,7 @@
       * [为命名空间配置内存和 CPU 配额](tasks/administer-cluster/manage-resources/quota-memory-cpu-namespace.md)
       * [配置命名空间下pod总数](tasks/administer-cluster/manage-resources/quota-pod-namespace.md)
     - Network Policy Provider
-      * [Index](tasks/administer-cluster/network-policy-provider/_index.md)
+      * [安装网络规则驱动](tasks/administer-cluster/network-policy-provider/_index.md)
       * [使用 Calico 作为 NetworkPolicy](tasks/administer-cluster/network-policy-provider/calico-network-policy.md)
       * [使用 Cilium 作为 NetworkPolicy](tasks/administer-cluster/network-policy-provider/cilium-network-policy.md)
       * [使用 Kube-router 作为 NetworkPolicy](tasks/administer-cluster/network-policy-provider/kube-router-network-policy.md)
