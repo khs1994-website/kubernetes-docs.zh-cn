@@ -57,7 +57,7 @@
       * [字段选择器](concepts/overview/working-with-objects/field-selectors.md)
       * [理解 Kubernetes 对象](concepts/overview/working-with-objects/kubernetes-objects.md)
       * [标签和选择器](concepts/overview/working-with-objects/labels.md)
-      * [名称](concepts/overview/working-with-objects/names.md)
+      * [对象名称和IDs](concepts/overview/working-with-objects/names.md)
       * [命名空间](concepts/overview/working-with-objects/namespaces.md)
       * [Kubernetes 对象管理](concepts/overview/working-with-objects/object-management.md)
     * [概述](concepts/overview/_index.md)
