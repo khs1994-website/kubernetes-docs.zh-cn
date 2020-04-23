@@ -66,6 +66,7 @@
     * [Kubernetes 是什么？](concepts/overview/what-is-kubernetes.md)
   - Policy
     * [策略](concepts/policy/_index.md)
+    * [限制范围](concepts/policy/limit-range.md)
     * [Pod 安全策略](concepts/policy/pod-security-policy.md)
     * [资源配额](concepts/policy/resource-quotas.md)
   - Scheduling
