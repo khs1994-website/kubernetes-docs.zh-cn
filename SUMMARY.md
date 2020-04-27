@@ -44,6 +44,7 @@
       * [通过聚合层扩展 Kubernetes API](concepts/extend-kubernetes/api-extension/apiserver-aggregation.md)
     - Compute Storage Net
       * [计算、存储和网络扩展](concepts/extend-kubernetes/compute-storage-net/_index.md)
+      * [设备插件](concepts/extend-kubernetes/compute-storage-net/device-plugins.md)
       * [网络插件](concepts/extend-kubernetes/compute-storage-net/network-plugins.md)
     * [扩展 Kubernetes](concepts/extend-kubernetes/_index.md)
     * [扩展 Kubernetes 集群](concepts/extend-kubernetes/extend-cluster.md)
