@@ -29,7 +29,6 @@
     * [配置最佳实践](concepts/configuration/overview.md)
     * [Pod 开销](concepts/configuration/pod-overhead.md)
     * [扩展资源的资源箱打包](concepts/configuration/resource-bin-packing.md)
-    * [调度框架](concepts/configuration/scheduling-framework.md)
     * [Secret](concepts/configuration/secret.md)
     * [Taint 和 Toleration](concepts/configuration/taint-and-toleration.md)
   - Containers
@@ -70,10 +69,11 @@
     * [限制范围](concepts/policy/limit-range.md)
     * [Pod 安全策略](concepts/policy/pod-security-policy.md)
     * [资源配额](concepts/policy/resource-quotas.md)
-  - Scheduling
-    * [调度](concepts/scheduling/_index.md)
-    * [Kubernetes 调度器](concepts/scheduling/kube-scheduler.md)
-    * [调度器性能调优](concepts/scheduling/scheduler-perf-tuning.md)
+  - Scheduling Eviction
+    * [调度和驱逐(Scheduling and Eviction)](concepts/scheduling-eviction/_index.md)
+    * [Kubernetes 调度器](concepts/scheduling-eviction/kube-scheduler.md)
+    * [调度器性能调优](concepts/scheduling-eviction/scheduler-perf-tuning.md)
+    * [调度框架](concepts/scheduling-eviction/scheduling-framework.md)
   - Security
     * [安全](concepts/security/_index.md)
   - Services Networking
