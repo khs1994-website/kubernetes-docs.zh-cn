@@ -593,6 +593,7 @@
     * [调试StatefulSet](tasks/debug-application-cluster/debug-stateful-set.md)
     * [确定 Pod 失败的原因](tasks/debug-application-cluster/determine-reason-pod-failure.md)
     * [StackDriver 中的事件](tasks/debug-application-cluster/events-stackdriver.md)
+    * [使用 Falco 审计](tasks/debug-application-cluster/falco.md)
     * [获取正在运行容器的 Shell](tasks/debug-application-cluster/get-shell-running-container.md)
     * [在本地开发和调试服务](tasks/debug-application-cluster/local-debugging.md)
     * [使用 ElasticSearch 和 Kibana 进行日志管理](tasks/debug-application-cluster/logging-elasticsearch-kibana.md)
