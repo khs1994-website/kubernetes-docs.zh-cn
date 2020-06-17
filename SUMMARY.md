@@ -564,7 +564,7 @@
     * [控制节点上的拓扑管理策略](tasks/administer-cluster/topology-manager.md)
   - Configure Pod Container
     * [配置 Pods 和容器](tasks/configure-pod-container/_index.md)
-    * [Assign Cpu Resource](tasks/configure-pod-container/assign-cpu-resource.md)
+    * [为容器和 Pods 分配 CPU 资源](tasks/configure-pod-container/assign-cpu-resource.md)
     * [为容器和 Pod 分配内存资源](tasks/configure-pod-container/assign-memory-resource.md)
     * [将 Pod 分配给节点](tasks/configure-pod-container/assign-pods-nodes.md)
     * [为容器的生命周期事件设置处理函数](tasks/configure-pod-container/attach-handler-lifecycle-event.md)
