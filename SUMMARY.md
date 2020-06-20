@@ -499,14 +499,6 @@
     * [使用端口转发来访问集群中的应用](tasks/access-application-cluster/port-forward-access-application-cluster.md)
     * [使用服务来访问集群中的应用](tasks/access-application-cluster/service-access-application-cluster.md)
     * [网页界面 (Dashboard)](tasks/access-application-cluster/web-ui-dashboard.md)
-  - Access Kubernetes Api
-    - Custom Resources
-      * [使用自定义资源](tasks/access-kubernetes-api/custom-resources/_index.md)
-      * [用户自定义资源版本](tasks/access-kubernetes-api/custom-resources/custom-resource-definition-versioning.md)
-    * [扩展 Kubernetes](tasks/access-kubernetes-api/_index.md)
-    * [配置聚合层](tasks/access-kubernetes-api/configure-aggregation-layer.md)
-    * [使用 HTTP 代理访问 Kubernetes API](tasks/access-kubernetes-api/http-proxy-access-api.md)
-    * [设置一个扩展的 API server](tasks/access-kubernetes-api/setup-extension-api-server.md)
   - Administer Cluster
     - Kubeadm
       * [用 kubeadm 进行管理](tasks/administer-cluster/kubeadm/_index.md)
@@ -605,6 +597,14 @@
     * [排错](tasks/debug-application-cluster/troubleshooting.md)
   - Extend Kubectl
     * [用插件扩展 kubectl](tasks/extend-kubectl/kubectl-plugins.md)
+  - Extend Kubernetes
+    - Custom Resources
+      * [使用自定义资源](tasks/extend-kubernetes/custom-resources/_index.md)
+      * [用户自定义资源版本](tasks/extend-kubernetes/custom-resources/custom-resource-definition-versioning.md)
+    * [扩展 Kubernetes](tasks/extend-kubernetes/_index.md)
+    * [配置聚合层](tasks/extend-kubernetes/configure-aggregation-layer.md)
+    * [使用 HTTP 代理访问 Kubernetes API](tasks/extend-kubernetes/http-proxy-access-api.md)
+    * [设置一个扩展的 API server](tasks/extend-kubernetes/setup-extension-api-server.md)
   - Federation
     - Administer Federation
       * [管理联邦控制平面](tasks/federation/administer-federation/_index.md)
