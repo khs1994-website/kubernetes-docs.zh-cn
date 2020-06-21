@@ -532,7 +532,7 @@
     * [声明网络策略](tasks/administer-cluster/declare-network-policy.md)
     * [开发云控制器管理器](tasks/administer-cluster/developing-cloud-controller-manager.md)
     * [自定义 DNS 服务](tasks/administer-cluster/dns-custom-nameservers.md)
-    * [Debug DNS 方案](tasks/administer-cluster/dns-debugging-resolution.md)
+    * [调试 DNS 问题](tasks/administer-cluster/dns-debugging-resolution.md)
     * [集群 DNS 服务自动伸缩](tasks/administer-cluster/dns-horizontal-autoscaling.md)
     * [启用端点切片](tasks/administer-cluster/enabling-endpointslices.md)
     * [静态加密 Secret 数据](tasks/administer-cluster/encrypt-data.md)
