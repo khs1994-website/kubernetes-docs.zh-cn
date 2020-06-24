@@ -25,11 +25,11 @@
     * [配置](concepts/configuration/_index.md)
     * [将 Pod 分配给节点](concepts/configuration/assign-pod-node.md)
     * [Config Map](concepts/configuration/configmap.md)
-    * [为容器管理计算资源](concepts/configuration/manage-compute-resources-container.md)
+    * [为容器管理资源](concepts/configuration/manage-resources-containers.md)
     * [使用 kubeconfig 文件组织集群访问](concepts/configuration/organize-cluster-access-kubeconfig.md)
     * [配置最佳实践](concepts/configuration/overview.md)
     * [Pod 开销](concepts/configuration/pod-overhead.md)
-    * [扩展资源的资源箱打包](concepts/configuration/resource-bin-packing.md)
+    * [扩展资源的资源装箱](concepts/configuration/resource-bin-packing.md)
     * [Secret](concepts/configuration/secret.md)
     * [Taint 和 Toleration](concepts/configuration/taint-and-toleration.md)
   - Containers
