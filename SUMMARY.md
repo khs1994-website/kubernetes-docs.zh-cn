@@ -694,7 +694,7 @@
     - Expose
       * [公开地暴露你的应用](tutorials/kubernetes-basics/expose/_index.md)
     - Scale
-      * [伸缩您的应用](tutorials/kubernetes-basics/scale/_index.md)
+      * [缩放你的应用](tutorials/kubernetes-basics/scale/_index.md)
     - Update
       * [更新你的应用](tutorials/kubernetes-basics/update/_index.md)
   - Online Training
