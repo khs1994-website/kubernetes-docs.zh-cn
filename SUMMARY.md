@@ -483,6 +483,7 @@
     * [容器运行时](setup/production-environment/container-runtimes.md)
   - Release
     * [Kubernetes 发行说明和版本偏差](setup/release/_index.md)
+    * [v1.18 发布说明](setup/release/notes.md)
     * [Kubernetes 版本及版本倾斜支持策略](setup/release/version-skew-policy.md)
   * [入门](setup/_index.md)
 - Tasks
@@ -671,7 +672,7 @@
     * [管理集群中的 TLS 认证](tasks/tls/managing-tls-in-a-cluster.md)
   - Tools
     * [安装工具](tasks/tools/_index.md)
-    * [安装并设置 kubectl](tasks/tools/install-kubectl.md)
+    * [安装并配置 kubectl](tasks/tools/install-kubectl.md)
     * [安装 Minikube](tasks/tools/install-minikube.md)
   * [任务](tasks/_index.md)
   * [示例任务的模板](tasks/example-task-template.md)
