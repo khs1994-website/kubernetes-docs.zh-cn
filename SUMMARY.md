@@ -173,6 +173,7 @@
     * [TLS Bootstrapping](reference/command-line-tools-reference/kubelet-tls-bootstrapping.md)
     * [Kubelet](reference/command-line-tools-reference/kubelet.md)
   - Glossary
+    * [附加组件](reference/glossary/addons.md)
     * [准入控制器](reference/glossary/admission-controller.md)
     * [聚合层](reference/glossary/aggregation-layer.md)
     * [注解](reference/glossary/annotation.md)
@@ -184,6 +185,7 @@
     * [批准者](reference/glossary/approver.md)
     * [证书](reference/glossary/certificate.md)
     * [cgroup (控制组)](reference/glossary/cgroup.md)
+    * [CIDR](reference/glossary/cidr.md)
     * [CLA (贡献者许可协议)](reference/glossary/cla.md)
     * [云控制器管理器](reference/glossary/cloud-controller-manager.md)
     * [云供应商](reference/glossary/cloud-provider.md)
