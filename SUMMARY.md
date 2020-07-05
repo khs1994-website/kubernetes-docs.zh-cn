@@ -136,6 +136,9 @@
     * [为发行版本撰写功能特性文档](contribute/new-content/new-features.md)
     * [发起拉取请求（PR）](contribute/new-content/open-a-pr.md)
     * [贡献新内容概述](contribute/new-content/overview.md)
+  - Participate
+    * [参与 SIG Docs](contribute/participate/_index.md)
+    * [角色与责任](contribute/participate/roles-and-responsibilties.md)
   - Style
     - Hugo Shortcodes
       * [例子](contribute/style/hugo-shortcodes/example2.md)
@@ -146,12 +149,10 @@
     * [页面内容类型](contribute/style/page-content-types.md)
     * [文档样式指南](contribute/style/style-guide.md)
     * [撰写新主题](contribute/style/write-new-topic.md)
-  * [为 Kubernetes 文档做贡献](contribute/_index.md)
+  * [贡献新内容](contribute/_index.md)
   * [高级贡献](contribute/advanced.md)
-  * [中级贡献](contribute/intermediate.md)
   * [本地化 Kubernetes 文档](contribute/localization.md)
-  * [参与 SIG Docs](contribute/participating.md)
-  * [开始贡献](contribute/start.md)
+  * [提出内容改进建议](contribute/suggesting-improvements.md)
 - [Doc Contributor Tools](doc-contributor-tools/README.md)
   - [Snippets](doc-contributor-tools/snippets/README.md)
 - Home
