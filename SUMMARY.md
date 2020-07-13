@@ -4,8 +4,8 @@
   - Architecture
     * [Kubernetes 架构](concepts/architecture/_index.md)
     * [云控制器管理器的基础概念](concepts/architecture/cloud-controller.md)
+    * [控制面到节点通信](concepts/architecture/control-plane-node-communication.md)
     * [控制器](concepts/architecture/controller.md)
-    * [Master 节点通信](concepts/architecture/master-node-communication.md)
     * [节点](concepts/architecture/nodes.md)
   - Cluster Administration
     * [计算、存储和网络扩展](concepts/cluster-administration/_index.md)
@@ -129,7 +129,9 @@
     * [为上游 Kubernetes 代码库做出贡献](contribute/generate-ref-docs/contribute-upstream.md)
     * [为 kubectl 命令集生成参考文档](contribute/generate-ref-docs/kubectl.md)
     * [为 Kubernetes API 生成参考文档](contribute/generate-ref-docs/kubernetes-api.md)
-    * [为 Kubernetes 组件和工具生成参考页面](contribute/generate-ref-docs/kubernetes-components.md)
+    * [为 Kubernetes 组件和工具生成参考文档](contribute/generate-ref-docs/kubernetes-components.md)
+    * [Prerequisites Ref Docs](contribute/generate-ref-docs/prerequisites-ref-docs.md)
+    * [快速入门](contribute/generate-ref-docs/quickstart.md)
   - New Content
     * [贡献新内容](contribute/new-content/_index.md)
     * [提交博客和案例分析](contribute/new-content/blogs-case-studies.md)
@@ -139,6 +141,10 @@
   - Participate
     * [参与 SIG Docs](contribute/participate/_index.md)
     * [角色与责任](contribute/participate/roles-and-responsibilties.md)
+  - Review
+    * [评阅变更](contribute/review/_index.md)
+    * [评阅人和批准人文档](contribute/review/for-approvers.md)
+    * [评阅 PRs](contribute/review/reviewing-prs.md)
   - Style
     - Hugo Shortcodes
       * [例子](contribute/style/hugo-shortcodes/example2.md)
