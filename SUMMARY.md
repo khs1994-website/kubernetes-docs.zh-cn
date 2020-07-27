@@ -8,13 +8,11 @@
     * [控制器](concepts/architecture/controller.md)
     * [节点](concepts/architecture/nodes.md)
   - Cluster Administration
-    * [计算、存储和网络扩展](concepts/cluster-administration/_index.md)
+    * [集群管理](concepts/cluster-administration/_index.md)
     * [安装扩展（Addons）](concepts/cluster-administration/addons.md)
     * [证书](concepts/cluster-administration/certificates.md)
     * [云驱动](concepts/cluster-administration/cloud-providers.md)
-    * [集群管理概述](concepts/cluster-administration/cluster-administration-overview.md)
     * [控制器管理器指标](concepts/cluster-administration/controller-metrics.md)
-    * [联邦](concepts/cluster-administration/federation.md)
     * [配置 kubelet 垃圾回收策略](concepts/cluster-administration/kubelet-garbage-collection.md)
     * [日志架构](concepts/cluster-administration/logging.md)
     * [管理资源](concepts/cluster-administration/manage-deployment.md)
@@ -140,6 +138,7 @@
     * [贡献新内容概述](contribute/new-content/overview.md)
   - Participate
     * [参与 SIG Docs](contribute/participate/_index.md)
+    * [PR 管理者](contribute/participate/pr-wranglers.md)
     * [角色与责任](contribute/participate/roles-and-responsibilties.md)
   - Review
     * [评阅变更](contribute/review/_index.md)
@@ -627,21 +626,6 @@
     * [配置聚合层](tasks/extend-kubernetes/configure-aggregation-layer.md)
     * [使用 HTTP 代理访问 Kubernetes API](tasks/extend-kubernetes/http-proxy-access-api.md)
     * [设置一个扩展的 API server](tasks/extend-kubernetes/setup-extension-api-server.md)
-  - Federation
-    - Administer Federation
-      * [管理联邦控制平面](tasks/federation/administer-federation/_index.md)
-      * [联邦 ConfigMap](tasks/federation/administer-federation/configmap.md)
-      * [联邦 DaemonSet](tasks/federation/administer-federation/daemonset.md)
-      * [联邦 Deployment](tasks/federation/administer-federation/deployment.md)
-      * [联邦事件](tasks/federation/administer-federation/events.md)
-      * [联邦 Job](tasks/federation/administer-federation/job.md)
-      * [联邦命名空间](tasks/federation/administer-federation/namespaces.md)
-      * [联邦 ReplicaSet](tasks/federation/administer-federation/replicaset.md)
-      * [联邦 Secret](tasks/federation/administer-federation/secret.md)
-    * [联邦 - 在多个集群上运行一个应用](tasks/federation/_index.md)
-    * [使用联合服务来实现跨集群的服务发现](tasks/federation/federation-service-discovery.md)
-    * [将 CoreDNS 设置为联邦集群的 DNS 提供者](tasks/federation/set-up-coredns-provider-federation.md)
-    * [在联邦中设置放置策略](tasks/federation/set-up-placement-policies-federation.md)
   - Inject Data Application
     * [给应用注入数据](tasks/inject-data-application/_index.md)
     * [为容器设置启动时要执行的命令及其入参](tasks/inject-data-application/define-command-argument-container.md)
