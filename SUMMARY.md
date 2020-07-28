@@ -32,7 +32,6 @@
     * [Taint 和 Toleration](concepts/configuration/taint-and-toleration.md)
   - Containers
     * [容器](concepts/containers/_index.md)
-    * [容器环境变量](concepts/containers/container-environment-variables.md)
     * [容器环境](concepts/containers/container-environment.md)
     * [容器生命周期钩子](concepts/containers/container-lifecycle-hooks.md)
     * [镜像](concepts/containers/images.md)
