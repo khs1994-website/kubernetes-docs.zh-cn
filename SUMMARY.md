@@ -21,7 +21,6 @@
     * [Kubernetes 中的代理](concepts/cluster-administration/proxies.md)
   - Configuration
     * [配置](concepts/configuration/_index.md)
-    * [将 Pod 分配给节点](concepts/configuration/assign-pod-node.md)
     * [Config Map](concepts/configuration/configmap.md)
     * [为容器管理资源](concepts/configuration/manage-resources-containers.md)
     * [使用 kubeconfig 文件组织集群访问](concepts/configuration/organize-cluster-access-kubeconfig.md)
@@ -29,7 +28,6 @@
     * [Pod 开销](concepts/configuration/pod-overhead.md)
     * [扩展资源的资源装箱](concepts/configuration/resource-bin-packing.md)
     * [Secret](concepts/configuration/secret.md)
-    * [Taint 和 Toleration](concepts/configuration/taint-and-toleration.md)
   - Containers
     * [容器](concepts/containers/_index.md)
     * [容器环境](concepts/containers/container-environment.md)
@@ -71,9 +69,11 @@
     * [资源配额](concepts/policy/resource-quotas.md)
   - Scheduling Eviction
     * [调度和驱逐(Scheduling and Eviction)](concepts/scheduling-eviction/_index.md)
+    * [将 Pod 分配给节点](concepts/scheduling-eviction/assign-pod-node.md)
     * [Kubernetes 调度器](concepts/scheduling-eviction/kube-scheduler.md)
     * [调度器性能调优](concepts/scheduling-eviction/scheduler-perf-tuning.md)
     * [调度框架](concepts/scheduling-eviction/scheduling-framework.md)
+    * [污点和容忍度](concepts/scheduling-eviction/taint-and-toleration.md)
   - Security
     * [安全](concepts/security/_index.md)
   - Services Networking
@@ -87,7 +87,7 @@
     * [Ingress](concepts/services-networking/ingress.md)
     * [网络策略](concepts/services-networking/network-policies.md)
     * [Service 拓扑](concepts/services-networking/service-topology.md)
-    * [Services](concepts/services-networking/service.md)
+    * [服务](concepts/services-networking/service.md)
   - Storage
     * [存储](concepts/storage/_index.md)
     * [动态卷供应](concepts/storage/dynamic-provisioning.md)
@@ -104,6 +104,7 @@
       * [Daemon Set](concepts/workloads/controllers/daemonset.md)
       * [Deployments](concepts/workloads/controllers/deployment.md)
       * [垃圾收集](concepts/workloads/controllers/garbage-collection.md)
+      * [Jobs](concepts/workloads/controllers/job.md)
       * [Replica Set](concepts/workloads/controllers/replicaset.md)
       * [Replicationcontroller](concepts/workloads/controllers/replicationcontroller.md)
       * [Stateful Sets](concepts/workloads/controllers/statefulset.md)
@@ -119,7 +120,6 @@
       * [Pod Preset](concepts/workloads/pods/podpreset.md)
     * [工作负载](concepts/workloads/_index.md)
   * [概念](concepts/_index.md)
-  * [概念模板示例](concepts/example-concept-template.md)
 - Contribute
   - Generate Ref Docs
     * [参考文档概述](contribute/generate-ref-docs/_index.md)
