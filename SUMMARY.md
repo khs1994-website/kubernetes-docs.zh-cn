@@ -138,7 +138,7 @@
   - Participate
     * [参与 SIG Docs](contribute/participate/_index.md)
     * [PR 管理者](contribute/participate/pr-wranglers.md)
-    * [角色与责任](contribute/participate/roles-and-responsibilties.md)
+    * [角色与责任](contribute/participate/roles-and-responsibilities.md)
   - Review
     * [评阅变更](contribute/review/_index.md)
     * [评阅人和批准人文档](contribute/review/for-approvers.md)
