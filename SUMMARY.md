@@ -79,10 +79,10 @@
   - Services Networking
     * [服务、负载均衡和联网](concepts/services-networking/_index.md)
     * [使用 HostAliases 向 Pod /etc/hosts 文件添加条目](concepts/services-networking/add-entries-to-pod-etc-hosts-with-host-aliases.md)
-    * [应用连接到 Service](concepts/services-networking/connect-applications-service.md)
+    * [使用 Service 连接到应用](concepts/services-networking/connect-applications-service.md)
     * [Pod 与 Service 的 DNS](concepts/services-networking/dns-pod-service.md)
     * [IPv4/IPv6 双协议栈](concepts/services-networking/dual-stack.md)
-    * [Endpoint Slices](concepts/services-networking/endpoint-slices.md)
+    * [端点切片（Endpoint Slices）](concepts/services-networking/endpoint-slices.md)
     * [Ingress 控制器](concepts/services-networking/ingress-controllers.md)
     * [Ingress](concepts/services-networking/ingress.md)
     * [网络策略](concepts/services-networking/network-policies.md)
@@ -91,12 +91,12 @@
   - Storage
     * [存储](concepts/storage/_index.md)
     * [动态卷供应](concepts/storage/dynamic-provisioning.md)
-    * [Storage Classes](concepts/storage/storage-classes.md)
+    * [存储类](concepts/storage/storage-classes.md)
     * [特定于节点的卷数限制](concepts/storage/storage-limits.md)
     * [CSI 卷克隆](concepts/storage/volume-pvc-datasource.md)
     * [卷快照类](concepts/storage/volume-snapshot-classes.md)
     * [卷快照](concepts/storage/volume-snapshots.md)
-    * [Volumes](concepts/storage/volumes.md)
+    * [卷](concepts/storage/volumes.md)
   - Workloads
     - Controllers
       * [控制器](concepts/workloads/controllers/_index.md)
@@ -493,6 +493,7 @@
       * [在阿里云上运行 Kubernetes](setup/production-environment/turnkey/alibaba-cloud.md)
       * [在 AWS EC2 上运行 Kubernetes](setup/production-environment/turnkey/aws.md)
       * [在 Azure 上运行 Kubernetes](setup/production-environment/turnkey/azure.md)
+      * [在 CenturyLink Cloud 上运行 Kubernetes](setup/production-environment/turnkey/clc.md)
       * [使用 IBM Cloud Private 在多个云上运行 Kubernetes](setup/production-environment/turnkey/icp.md)
       * [在腾讯云容器服务上运行 Kubernetes](setup/production-environment/turnkey/tencent.md)
     - Windows
@@ -515,6 +516,7 @@
     * [为集群配置 DNS](tasks/access-application-cluster/configure-dns-cluster.md)
     * [使用 Service 把前端连接到后端](tasks/access-application-cluster/connecting-frontend-backend.md)
     * [创建一个外部负载均衡器](tasks/access-application-cluster/create-external-load-balancer.md)
+    * [在 Minikube 环境中使用 NGINX Ingress 控制器配置 Ingress](tasks/access-application-cluster/ingress-minikube.md)
     * [列出集群中所有运行容器的镜像](tasks/access-application-cluster/list-all-running-container-images.md)
     * [使用端口转发来访问集群中的应用](tasks/access-application-cluster/port-forward-access-application-cluster.md)
     * [使用服务来访问集群中的应用](tasks/access-application-cluster/service-access-application-cluster.md)
