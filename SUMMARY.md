@@ -110,12 +110,11 @@
       * [Stateful Sets](concepts/workloads/controllers/statefulset.md)
       * [已完成资源的 TTL 控制器](concepts/workloads/controllers/ttlafterfinished.md)
     - Pods
-      * [Pods](concepts/workloads/pods/pod.md)
+      * [Pods](concepts/workloads/pods/_index.md)
       * [干扰](concepts/workloads/pods/disruptions.md)
       * [临时容器](concepts/workloads/pods/ephemeral-containers.md)
       * [Init 容器](concepts/workloads/pods/init-containers.md)
       * [Pod 的生命周期](concepts/workloads/pods/pod-lifecycle.md)
-      * [Pod 概览](concepts/workloads/pods/pod-overview.md)
       * [Pod 拓扑扩展约束](concepts/workloads/pods/pod-topology-spread-constraints.md)
       * [Pod Preset](concepts/workloads/pods/podpreset.md)
     * [工作负载](concepts/workloads/_index.md)
