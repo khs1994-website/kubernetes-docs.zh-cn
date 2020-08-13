@@ -660,7 +660,6 @@
     * [强制删除 StatefulSet 类型的 Pods](tasks/run-application/force-delete-stateful-set-pod.md)
     * [Horizontal Pod Autoscaler演练](tasks/run-application/horizontal-pod-autoscale-walkthrough.md)
     * [Pod 水平自动伸缩](tasks/run-application/horizontal-pod-autoscale.md)
-    * [基于Replication Controller执行滚动升级](tasks/run-application/rolling-update-replication-controller.md)
     * [运行一个有状态的应用程序](tasks/run-application/run-replicated-stateful-application.md)
     * [运行一个单实例有状态应用](tasks/run-application/run-single-instance-stateful-application.md)
     * [使用Deployment运行一个无状态应用](tasks/run-application/run-stateless-application-deployment.md)
