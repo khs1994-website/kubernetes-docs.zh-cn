@@ -26,6 +26,7 @@
     * [使用 kubeconfig 文件组织集群访问](concepts/configuration/organize-cluster-access-kubeconfig.md)
     * [配置最佳实践](concepts/configuration/overview.md)
     * [Pod 开销](concepts/configuration/pod-overhead.md)
+    * [Pod 优先级与抢占](concepts/configuration/pod-priority-preemption.md)
     * [扩展资源的资源装箱](concepts/configuration/resource-bin-packing.md)
     * [Secret](concepts/configuration/secret.md)
   - Containers
