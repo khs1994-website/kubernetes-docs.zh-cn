@@ -650,6 +650,7 @@
     * [管理巨页（HugePages）](tasks/manage-hugepages/scheduling-hugepages.md)
   - Manage Kubernetes Objects
     * [管理 Kubernetes 对象](tasks/manage-kubernetes-objects/_index.md)
+    * [使用指令式命令管理 Kubernetes 对象](tasks/manage-kubernetes-objects/imperative-command.md)
     * [使用配置文件对 Kubernetes 对象进行命令式管理](tasks/manage-kubernetes-objects/imperative-config.md)
   - Network
     * [网络](tasks/network/_index.md)
