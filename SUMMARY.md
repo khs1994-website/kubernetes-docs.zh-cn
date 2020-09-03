@@ -675,6 +675,7 @@
     * [TLS](tasks/tls/_index.md)
     * [为 kubelet 配置证书轮换](tasks/tls/certificate-rotation.md)
     * [管理集群中的 TLS 认证](tasks/tls/managing-tls-in-a-cluster.md)
+    * [手动轮换 CA 证书](tasks/tls/manual-rotation-of-ca-certificates.md)
   - Tools
     * [安装工具](tasks/tools/_index.md)
     * [安装并配置 kubectl](tasks/tools/install-kubectl.md)
