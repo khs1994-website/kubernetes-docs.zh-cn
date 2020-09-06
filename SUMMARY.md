@@ -19,6 +19,7 @@
     * [Kubernetes 控制面的指标](concepts/cluster-administration/monitoring.md)
     * [集群网络系统](concepts/cluster-administration/networking.md)
     * [Kubernetes 中的代理](concepts/cluster-administration/proxies.md)
+    * [Kubernetes 系统组件指标](concepts/cluster-administration/system-metrics.md)
   - Configuration
     * [配置](concepts/configuration/_index.md)
     * [Config Map](concepts/configuration/configmap.md)
@@ -76,6 +77,7 @@
     * [污点和容忍度](concepts/scheduling-eviction/taint-and-toleration.md)
   - Security
     * [安全](concepts/security/_index.md)
+    * [Pod 安全性标准](concepts/security/pod-security-standards.md)
   - Services Networking
     * [服务、负载均衡和联网](concepts/services-networking/_index.md)
     * [使用 HostAliases 向 Pod /etc/hosts 文件添加条目](concepts/services-networking/add-entries-to-pod-etc-hosts-with-host-aliases.md)
@@ -556,12 +558,13 @@
     * [调试 DNS 问题](tasks/administer-cluster/dns-debugging-resolution.md)
     * [自动扩缩集群 DNS 服务](tasks/administer-cluster/dns-horizontal-autoscaling.md)
     * [启用端点切片](tasks/administer-cluster/enabling-endpointslices.md)
+    * [开启服务拓扑](tasks/administer-cluster/enabling-service-topology.md)
     * [静态加密 Secret 数据](tasks/administer-cluster/encrypt-data.md)
     * [为节点发布扩展资源](tasks/administer-cluster/extended-resource-node.md)
     * [关键插件 Pod 的调度保证](tasks/administer-cluster/guaranteed-scheduling-critical-addon-pods.md)
     * [搭建高可用的 Kubernetes Masters](tasks/administer-cluster/highly-available-master.md)
     * [IP Masquerade Agent 用户指南](tasks/administer-cluster/ip-masq-agent.md)
-    * [使用 KMS 提供商进行数据加密](tasks/administer-cluster/kms-provider.md)
+    * [使用 KMS 驱动进行数据加密](tasks/administer-cluster/kms-provider.md)
     * [通过配置文件设置 Kubelet 参数](tasks/administer-cluster/kubelet-config-file.md)
     * [限制存储消耗](tasks/administer-cluster/limit-storage-consumption.md)
     * [名字空间演练](tasks/administer-cluster/namespaces-walkthrough.md)
@@ -592,6 +595,7 @@
     * [为容器分派扩展资源](tasks/configure-pod-container/extended-resource.md)
     * [从私有仓库拉取镜像](tasks/configure-pod-container/pull-image-private-registry.md)
     * [配置 Pod 的服务质量](tasks/configure-pod-container/quality-service-pod.md)
+    * [为 Pod 或容器配置安全性上下文](tasks/configure-pod-container/security-context.md)
     * [在 Pod 中的容器之间共享进程命名空间](tasks/configure-pod-container/share-process-namespace.md)
     * [创建静态 Pod](tasks/configure-pod-container/static-pod.md)
     * [将 Docker Compose 文件转换为 Kubernetes 资源](tasks/configure-pod-container/translate-compose-kubernetes.md)
@@ -652,6 +656,8 @@
     * [管理 Kubernetes 对象](tasks/manage-kubernetes-objects/_index.md)
     * [使用指令式命令管理 Kubernetes 对象](tasks/manage-kubernetes-objects/imperative-command.md)
     * [使用配置文件对 Kubernetes 对象进行命令式管理](tasks/manage-kubernetes-objects/imperative-config.md)
+    * [使用 Kustomize 对 Kubernetes 对象进行声明式管理](tasks/manage-kubernetes-objects/kustomization.md)
+    * [使用 kubectl patch 更新 API 对象](tasks/manage-kubernetes-objects/update-api-object-kubectl-patch.md)
   - Network
     * [网络](tasks/network/_index.md)
     * [验证 IPv4/IPv6 双协议栈](tasks/network/validate-dual-stack.md)
@@ -666,7 +672,6 @@
     * [运行一个单实例有状态应用](tasks/run-application/run-single-instance-stateful-application.md)
     * [使用Deployment运行一个无状态应用](tasks/run-application/run-stateless-application-deployment.md)
     * [扩缩 StatefulSet](tasks/run-application/scale-stateful-set.md)
-    * [使用 kubectl patch 更新 API 对象](tasks/run-application/update-api-object-kubectl-patch.md)
   - Service Catalog
     * [安装服务目录](tasks/service-catalog/_index.md)
     * [使用 Helm 安装 Service Catalog](tasks/service-catalog/install-service-catalog-using-helm.md)
