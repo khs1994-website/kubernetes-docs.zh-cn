@@ -40,6 +40,7 @@
     - Api Extension
       * [扩展 Kubernetes API](concepts/extend-kubernetes/api-extension/_index.md)
       * [通过聚合层扩展 Kubernetes API](concepts/extend-kubernetes/api-extension/apiserver-aggregation.md)
+      * [定制资源](concepts/extend-kubernetes/api-extension/custom-resources.md)
     - Compute Storage Net
       * [计算、存储和网络扩展](concepts/extend-kubernetes/compute-storage-net/_index.md)
       * [设备插件](concepts/extend-kubernetes/compute-storage-net/device-plugins.md)
@@ -456,8 +457,10 @@
     * [安装工具](reference/setup-tools/_index.md)
   - Using Api
     * [使用 Kubernetes API](reference/using-api/_index.md)
+    * [Kubernetes API 概念](reference/using-api/api-concepts.md)
     * [Kubernetes API 总览](reference/using-api/api-overview.md)
     * [客户端库](reference/using-api/client-libraries.md)
+    * [Kubernetes 弃用策略](reference/using-api/deprecation-policy.md)
   * [参考](reference/_index.md)
   * [工具](reference/tools.md)
 - Setup
@@ -467,8 +470,6 @@
     * [创建大型集群](setup/best-practices/cluster-large.md)
     * [运行于多区环境](setup/best-practices/multiple-zones.md)
     * [校验节点设置](setup/best-practices/node-conformance.md)
-  - Independent
-    * [使用 kubeadm 创建一个单主集群](setup/independent/create-cluster-kubeadm.md)
   - Learning Environment
     * [学习环境](setup/learning-environment/_index.md)
     * [使用 Minikube 安装 Kubernetes](setup/learning-environment/minikube.md)
@@ -481,6 +482,7 @@
       - Kubeadm
         * [使用 kubeadm 引导集群](setup/production-environment/tools/kubeadm/_index.md)
         * [使用 kubeadm 定制控制平面配置](setup/production-environment/tools/kubeadm/control-plane-flags.md)
+        * [使用 kubeadm 创建集群](setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md)
         * [高可用拓扑选项](setup/production-environment/tools/kubeadm/ha-topology.md)
         * [利用 kubeadm 创建高可用集群](setup/production-environment/tools/kubeadm/high-availability.md)
         * [安装 kubeadm](setup/production-environment/tools/kubeadm/install-kubeadm.md)
