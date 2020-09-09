@@ -72,6 +72,7 @@
   - Scheduling Eviction
     * [调度和驱逐(Scheduling and Eviction)](concepts/scheduling-eviction/_index.md)
     * [将 Pod 分配给节点](concepts/scheduling-eviction/assign-pod-node.md)
+    * [驱逐策略](concepts/scheduling-eviction/eviction-policy.md)
     * [Kubernetes 调度器](concepts/scheduling-eviction/kube-scheduler.md)
     * [调度器性能调优](concepts/scheduling-eviction/scheduler-perf-tuning.md)
     * [调度框架](concepts/scheduling-eviction/scheduling-framework.md)
@@ -94,6 +95,7 @@
   - Storage
     * [存储](concepts/storage/_index.md)
     * [动态卷供应](concepts/storage/dynamic-provisioning.md)
+    * [持久卷](concepts/storage/persistent-volumes.md)
     * [存储类](concepts/storage/storage-classes.md)
     * [特定于节点的卷数限制](concepts/storage/storage-limits.md)
     * [CSI 卷克隆](concepts/storage/volume-pvc-datasource.md)
@@ -570,7 +572,7 @@
     * [通过配置文件设置 Kubelet 参数](tasks/administer-cluster/kubelet-config-file.md)
     * [限制存储消耗](tasks/administer-cluster/limit-storage-consumption.md)
     * [名字空间演练](tasks/administer-cluster/namespaces-walkthrough.md)
-    * [通过命名空间共享集群](tasks/administer-cluster/namespaces.md)
+    * [通过名字空间共享集群](tasks/administer-cluster/namespaces.md)
     * [在 Kubernetes 集群中使用 NodeLocal DNSCache](tasks/administer-cluster/nodelocaldns.md)
     * [配置资源不足时的处理方式](tasks/administer-cluster/out-of-resource.md)
     * [配置 API 对象配额](tasks/administer-cluster/quota-api-object.md)
