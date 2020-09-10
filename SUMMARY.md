@@ -629,6 +629,7 @@
     - Custom Resources
       * [使用自定义资源](tasks/extend-kubernetes/custom-resources/_index.md)
       * [用户自定义资源的版本](tasks/extend-kubernetes/custom-resources/custom-resource-definition-versioning.md)
+      * [使用 CustomResourceDefinition 扩展 Kubernetes API](tasks/extend-kubernetes/custom-resources/custom-resource-definitions.md)
     * [扩展 Kubernetes](tasks/extend-kubernetes/_index.md)
     * [配置聚合层](tasks/extend-kubernetes/configure-aggregation-layer.md)
     * [配置多个调度器](tasks/extend-kubernetes/configure-multiple-schedulers.md)
