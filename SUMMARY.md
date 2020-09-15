@@ -157,7 +157,7 @@
     * [页面内容类型](contribute/style/page-content-types.md)
     * [文档样式指南](contribute/style/style-guide.md)
     * [撰写新主题](contribute/style/write-new-topic.md)
-  * [贡献新内容](contribute/_index.md)
+  * [贡献 Kubernetes 文档](contribute/_index.md)
   * [高级贡献](contribute/advanced.md)
   * [本地化 Kubernetes 文档](contribute/localization.md)
   * [提出内容改进建议](contribute/suggesting-improvements.md)
@@ -510,7 +510,7 @@
   - Release
     * [Kubernetes 发行说明和版本偏差](setup/release/_index.md)
     * [v1.18 发布说明](setup/release/notes.md)
-    * [Kubernetes 版本及版本倾斜支持策略](setup/release/version-skew-policy.md)
+    * [Kubernetes 版本及版本偏差支持策略](setup/release/version-skew-policy.md)
   * [入门](setup/_index.md)
 - Tasks
   - Access Application Cluster
