@@ -13,6 +13,7 @@
     * [证书](concepts/cluster-administration/certificates.md)
     * [云驱动](concepts/cluster-administration/cloud-providers.md)
     * [控制器管理器指标](concepts/cluster-administration/controller-metrics.md)
+    * [API 优先级和公平性](concepts/cluster-administration/flow-control.md)
     * [配置 kubelet 垃圾回收策略](concepts/cluster-administration/kubelet-garbage-collection.md)
     * [日志架构](concepts/cluster-administration/logging.md)
     * [管理资源](concepts/cluster-administration/manage-deployment.md)
@@ -70,7 +71,7 @@
     * [Pod 安全策略](concepts/policy/pod-security-policy.md)
     * [资源配额](concepts/policy/resource-quotas.md)
   - Scheduling Eviction
-    * [调度和驱逐(Scheduling and Eviction)](concepts/scheduling-eviction/_index.md)
+    * [调度和驱逐 (Scheduling and Eviction)](concepts/scheduling-eviction/_index.md)
     * [将 Pod 分配给节点](concepts/scheduling-eviction/assign-pod-node.md)
     * [驱逐策略](concepts/scheduling-eviction/eviction-policy.md)
     * [Kubernetes 调度器](concepts/scheduling-eviction/kube-scheduler.md)
@@ -79,6 +80,7 @@
     * [污点和容忍度](concepts/scheduling-eviction/taint-and-toleration.md)
   - Security
     * [安全](concepts/security/_index.md)
+    * [云原生安全概述](concepts/security/overview.md)
     * [Pod 安全性标准](concepts/security/pod-security-standards.md)
   - Services Networking
     * [服务、负载均衡和联网](concepts/services-networking/_index.md)
@@ -96,6 +98,7 @@
     * [存储](concepts/storage/_index.md)
     * [动态卷供应](concepts/storage/dynamic-provisioning.md)
     * [持久卷](concepts/storage/persistent-volumes.md)
+    * [存储容量](concepts/storage/storage-capacity.md)
     * [存储类](concepts/storage/storage-classes.md)
     * [特定于节点的卷数限制](concepts/storage/storage-limits.md)
     * [CSI 卷克隆](concepts/storage/volume-pvc-datasource.md)
@@ -171,6 +174,7 @@
     * [访问 API](reference/access-authn-authz/_index.md)
     * [使用 ABAC 鉴权](reference/access-authn-authz/abac.md)
     * [使用准入控制器](reference/access-authn-authz/admission-controllers.md)
+    * [用户认证](reference/access-authn-authz/authentication.md)
     * [授权概述](reference/access-authn-authz/authorization.md)
     * [使用启动引导令牌（Bootstrap Tokens）认证](reference/access-authn-authz/bootstrap-tokens.md)
     * [Kubernetes API 访问控制](reference/access-authn-authz/controlling-access.md)
@@ -474,6 +478,7 @@
     * [校验节点设置](setup/best-practices/node-conformance.md)
   - Learning Environment
     * [学习环境](setup/learning-environment/_index.md)
+    * [使用 Kind 安装 Kubernetes](setup/learning-environment/kind.md)
     * [使用 Minikube 安装 Kubernetes](setup/learning-environment/minikube.md)
   - Production Environment
     - On Premises Vm
