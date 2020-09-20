@@ -587,6 +587,9 @@
     * [保护集群安全](tasks/administer-cluster/securing-a-cluster.md)
     * [在 Kubernetes 集群中使用 sysctl](tasks/administer-cluster/sysctl-cluster.md)
     * [控制节点上的拓扑管理策略](tasks/administer-cluster/topology-manager.md)
+  - Configmap Secret
+    * [管理 Secrets](tasks/configmap-secret/_index.md)
+    * [使用 kubectl 管理 Secret](tasks/configmap-secret/managing-secret-using-kubectl.md)
   - Configure Pod Container
     * [配置 Pods 和容器](tasks/configure-pod-container/_index.md)
     * [为容器和 Pods 分配 CPU 资源](tasks/configure-pod-container/assign-cpu-resource.md)
