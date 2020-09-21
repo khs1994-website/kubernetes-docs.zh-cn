@@ -589,6 +589,7 @@
     * [控制节点上的拓扑管理策略](tasks/administer-cluster/topology-manager.md)
   - Configmap Secret
     * [管理 Secrets](tasks/configmap-secret/_index.md)
+    * [使用配置文件管理 Secret](tasks/configmap-secret/managing-secret-using-config-file.md)
     * [使用 kubectl 管理 Secret](tasks/configmap-secret/managing-secret-using-kubectl.md)
   - Configure Pod Container
     * [配置 Pods 和容器](tasks/configure-pod-container/_index.md)
