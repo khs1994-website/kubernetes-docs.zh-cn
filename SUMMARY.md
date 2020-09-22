@@ -591,6 +591,7 @@
     * [管理 Secrets](tasks/configmap-secret/_index.md)
     * [使用配置文件管理 Secret](tasks/configmap-secret/managing-secret-using-config-file.md)
     * [使用 kubectl 管理 Secret](tasks/configmap-secret/managing-secret-using-kubectl.md)
+    * [使用 Kustomize 管理 Secret](tasks/configmap-secret/managing-secret-using-kustomize.md)
   - Configure Pod Container
     * [配置 Pods 和容器](tasks/configure-pod-container/_index.md)
     * [为容器和 Pods 分配 CPU 资源](tasks/configure-pod-container/assign-cpu-resource.md)
