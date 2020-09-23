@@ -658,7 +658,7 @@
     * [使用 CronJob 运行自动化任务](tasks/job/automated-tasks-with-cron-jobs.md)
     * [使用工作队列进行粗粒度并行处理](tasks/job/coarse-parallel-processing-work-queue.md)
     * [使用工作队列进行精细的并行处理](tasks/job/fine-parallel-processing-work-queue.md)
-    * [使用扩展进行并行处理](tasks/job/parallel-processing-expansion.md)
+    * [使用展开的方式进行并行处理](tasks/job/parallel-processing-expansion.md)
   - Manage Daemon
     * [管理集群守护进程](tasks/manage-daemon/_index.md)
     * [对 DaemonSet 执行回滚](tasks/manage-daemon/rollback-daemon-set.md)
