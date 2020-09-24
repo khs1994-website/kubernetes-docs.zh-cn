@@ -29,7 +29,6 @@
     * [配置最佳实践](concepts/configuration/overview.md)
     * [Pod 开销](concepts/configuration/pod-overhead.md)
     * [Pod 优先级与抢占](concepts/configuration/pod-priority-preemption.md)
-    * [扩展资源的资源装箱](concepts/configuration/resource-bin-packing.md)
     * [Secret](concepts/configuration/secret.md)
   - Containers
     * [容器](concepts/containers/_index.md)
@@ -75,6 +74,7 @@
     * [将 Pod 分配给节点](concepts/scheduling-eviction/assign-pod-node.md)
     * [驱逐策略](concepts/scheduling-eviction/eviction-policy.md)
     * [Kubernetes 调度器](concepts/scheduling-eviction/kube-scheduler.md)
+    * [扩展资源的资源装箱](concepts/scheduling-eviction/resource-bin-packing.md)
     * [调度器性能调优](concepts/scheduling-eviction/scheduler-perf-tuning.md)
     * [调度框架](concepts/scheduling-eviction/scheduling-framework.md)
     * [污点和容忍度](concepts/scheduling-eviction/taint-and-toleration.md)
