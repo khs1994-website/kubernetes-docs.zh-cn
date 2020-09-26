@@ -20,6 +20,7 @@
     * [Kubernetes 控制面的指标](concepts/cluster-administration/monitoring.md)
     * [集群网络系统](concepts/cluster-administration/networking.md)
     * [Kubernetes 中的代理](concepts/cluster-administration/proxies.md)
+    * [系统日志](concepts/cluster-administration/system-logs.md)
     * [Kubernetes 系统组件指标](concepts/cluster-administration/system-metrics.md)
   - Configuration
     * [配置](concepts/configuration/_index.md)
@@ -332,6 +333,10 @@
     * [API 参考](reference/kubernetes-api/_index.md)
     * [v1.17](reference/kubernetes-api/api-index.md)
     * [知名标签（Label）、注解（Annotation）和 Taints](reference/kubernetes-api/labels-annotations-taints.md)
+  - Scheduling
+    * [调度](reference/scheduling/_index.md)
+    * [调度器配置](reference/scheduling/config.md)
+    * [调度策略](reference/scheduling/policies.md)
   - Setup Tools
     - Kubeadm
       - [Generated](reference/setup-tools/kubeadm/generated/README.md)
