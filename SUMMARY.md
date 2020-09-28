@@ -98,6 +98,7 @@
   - Storage
     * [存储](concepts/storage/_index.md)
     * [动态卷供应](concepts/storage/dynamic-provisioning.md)
+    * [临时卷](concepts/storage/ephemeral-volumes.md)
     * [持久卷](concepts/storage/persistent-volumes.md)
     * [存储容量](concepts/storage/storage-capacity.md)
     * [存储类](concepts/storage/storage-classes.md)
@@ -589,6 +590,7 @@
     * [在运行中的集群上重新配置节点的 kubelet](tasks/administer-cluster/reconfigure-kubelet.md)
     * [为系统守护进程预留计算资源](tasks/administer-cluster/reserve-compute-resources.md)
     * [Kubernetes 云管理控制器](tasks/administer-cluster/running-cloud-controller.md)
+    * [确保 PodDisruptionBudget 的前提下安全地清空一个节点](tasks/administer-cluster/safely-drain-node.md)
     * [保护集群安全](tasks/administer-cluster/securing-a-cluster.md)
     * [在 Kubernetes 集群中使用 sysctl](tasks/administer-cluster/sysctl-cluster.md)
     * [控制节点上的拓扑管理策略](tasks/administer-cluster/topology-manager.md)
