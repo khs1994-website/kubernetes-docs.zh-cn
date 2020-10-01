@@ -11,7 +11,6 @@
     * [集群管理](concepts/cluster-administration/_index.md)
     * [安装扩展（Addons）](concepts/cluster-administration/addons.md)
     * [证书](concepts/cluster-administration/certificates.md)
-    * [云驱动](concepts/cluster-administration/cloud-providers.md)
     * [控制器管理器指标](concepts/cluster-administration/controller-metrics.md)
     * [API 优先级和公平性](concepts/cluster-administration/flow-control.md)
     * [配置 kubelet 垃圾回收策略](concepts/cluster-administration/kubelet-garbage-collection.md)
@@ -166,8 +165,8 @@
   * [高级贡献](contribute/advanced.md)
   * [本地化 Kubernetes 文档](contribute/localization.md)
   * [提出内容改进建议](contribute/suggesting-improvements.md)
-- [Doc Contributor Tools](doc-contributor-tools/README.md)
-  - [Snippets](doc-contributor-tools/snippets/README.md)
+- Doc Contributor Tools
+  - [Linkchecker](doc-contributor-tools/linkchecker/README.md)
 - Home
   * [Kubernetes 文档](home/_index.md)
   * [Kubernetes 文档支持的版本](home/supported-doc-versions.md)
@@ -211,7 +210,6 @@
     * [CIDR](reference/glossary/cidr.md)
     * [CLA (贡献者许可协议)](reference/glossary/cla.md)
     * [云控制器管理器](reference/glossary/cloud-controller-manager.md)
-    * [云供应商](reference/glossary/cloud-provider.md)
     * [集群架构师](reference/glossary/cluster-architect.md)
     * [集群基础设施](reference/glossary/cluster-infrastructure.md)
     * [集群操作](reference/glossary/cluster-operations.md)
@@ -358,7 +356,6 @@
         * [Kubeadm Alpha Certs Renew](reference/setup-tools/kubeadm/generated/kubeadm_alpha_certs_renew.md)
         * [Kubeadm Alpha Kubeconfig User](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubeconfig_user.md)
         * [Kubeadm Alpha Kubeconfig](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubeconfig.md)
-        * [Kubeadm Alpha Kubelet Config Download](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubelet_config_download.md)
         * [Kubeadm Alpha Kubelet Config Enable Dynamic](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubelet_config_enable-dynamic.md)
         * [Kubeadm Alpha Kubelet Config](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubelet_config.md)
         * [Kubeadm Alpha Kubelet](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubelet.md)
@@ -487,10 +484,6 @@
     * [使用 Kind 安装 Kubernetes](setup/learning-environment/kind.md)
     * [使用 Minikube 安装 Kubernetes](setup/learning-environment/minikube.md)
   - Production Environment
-    - On Premises Vm
-      * [本地 VMs](setup/production-environment/on-premises-vm/_index.md)
-      * [DC/OS 上的 Kubernetes](setup/production-environment/on-premises-vm/dcos.md)
-      * [O Virt](setup/production-environment/on-premises-vm/ovirt.md)
     - Tools
       - Kubeadm
         * [使用 kubeadm 引导集群](setup/production-environment/tools/kubeadm/_index.md)
@@ -510,7 +503,6 @@
       * [在阿里云上运行 Kubernetes](setup/production-environment/turnkey/alibaba-cloud.md)
       * [在 AWS EC2 上运行 Kubernetes](setup/production-environment/turnkey/aws.md)
       * [在 Azure 上运行 Kubernetes](setup/production-environment/turnkey/azure.md)
-      * [在 CenturyLink Cloud 上运行 Kubernetes](setup/production-environment/turnkey/clc.md)
       * [使用 IBM Cloud Private 在多个云上运行 Kubernetes](setup/production-environment/turnkey/icp.md)
       * [在腾讯云容器服务上运行 Kubernetes](setup/production-environment/turnkey/tencent.md)
     - Windows
@@ -529,7 +521,6 @@
     * [访问集群](tasks/access-application-cluster/access-cluster.md)
     * [同 Pod 内的容器使用共享卷通信](tasks/access-application-cluster/communicate-containers-same-pod-shared-volume.md)
     * [配置对多集群的访问](tasks/access-application-cluster/configure-access-multiple-clusters.md)
-    * [配置你的云平台防火墙](tasks/access-application-cluster/configure-cloud-provider-firewall.md)
     * [为集群配置 DNS](tasks/access-application-cluster/configure-dns-cluster.md)
     * [使用 Service 把前端连接到后端](tasks/access-application-cluster/connecting-frontend-backend.md)
     * [创建外部负载均衡器](tasks/access-application-cluster/create-external-load-balancer.md)
@@ -630,6 +621,7 @@
     * [集群故障排查](tasks/debug-application-cluster/debug-cluster.md)
     * [调试 Init 容器](tasks/debug-application-cluster/debug-init-containers.md)
     * [调试 Pods 和 ReplicationControllers](tasks/debug-application-cluster/debug-pod-replication-controller.md)
+    * [调试运行中的 Pod](tasks/debug-application-cluster/debug-running-pod.md)
     * [调试 Service](tasks/debug-application-cluster/debug-service.md)
     * [调试StatefulSet](tasks/debug-application-cluster/debug-stateful-set.md)
     * [确定 Pod 失败的原因](tasks/debug-application-cluster/determine-reason-pod-failure.md)
@@ -709,8 +701,6 @@
     * [安装并配置 kubectl](tasks/tools/install-kubectl.md)
     * [安装 Minikube](tasks/tools/install-minikube.md)
   * [任务](tasks/_index.md)
-- Templates
-  * [Index](templates/index.md)
 - Tutorials
   - Clusters
     * [集群](tutorials/clusters/_index.md)
@@ -750,5 +740,4 @@
   * [教程](tutorials/_index.md)
   * [你好 Minikube](tutorials/hello-minikube.md)
 * [生产级别的容器编排系统](README.md)
-* [搜索结果](search.md)
 * [Sitemap](sitemap.md)
