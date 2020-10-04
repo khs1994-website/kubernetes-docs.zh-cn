@@ -649,6 +649,7 @@
     * [给应用注入数据](tasks/inject-data-application/_index.md)
     * [为容器设置启动时要执行的命令和参数](tasks/inject-data-application/define-command-argument-container.md)
     * [为容器设置环境变量](tasks/inject-data-application/define-environment-variable-container.md)
+    * [定义相互依赖的环境变量](tasks/inject-data-application/define-interdependent-environment-variables.md)
     * [使用 Secret 安全地分发凭证](tasks/inject-data-application/distribute-credentials-secure.md)
     * [通过文件将 Pod 信息呈现给容器](tasks/inject-data-application/downward-api-volume-expose-pod-information.md)
     * [通过环境变量将 Pod 信息呈现给容器](tasks/inject-data-application/environment-variable-expose-pod-information.md)
