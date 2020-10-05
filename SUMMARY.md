@@ -629,6 +629,7 @@
     * [获取正在运行容器的 Shell](tasks/debug-application-cluster/get-shell-running-container.md)
     * [在本地开发和调试服务](tasks/debug-application-cluster/local-debugging.md)
     * [使用 ElasticSearch 和 Kibana 进行日志管理](tasks/debug-application-cluster/logging-elasticsearch-kibana.md)
+    * [使用 Stackdriver 生成日志](tasks/debug-application-cluster/logging-stackdriver.md)
     * [节点健康监测](tasks/debug-application-cluster/monitor-node-health.md)
     * [资源指标管道](tasks/debug-application-cluster/resource-metrics-pipeline.md)
     * [资源监控工具](tasks/debug-application-cluster/resource-usage-monitoring.md)
@@ -670,6 +671,7 @@
     * [管理巨页（HugePages）](tasks/manage-hugepages/scheduling-hugepages.md)
   - Manage Kubernetes Objects
     * [管理 Kubernetes 对象](tasks/manage-kubernetes-objects/_index.md)
+    * [使用配置文件对 Kubernetes 对象进行声明式管理](tasks/manage-kubernetes-objects/declarative-config.md)
     * [使用指令式命令管理 Kubernetes 对象](tasks/manage-kubernetes-objects/imperative-command.md)
     * [使用配置文件对 Kubernetes 对象进行命令式管理](tasks/manage-kubernetes-objects/imperative-config.md)
     * [使用 Kustomize 对 Kubernetes 对象进行声明式管理](tasks/manage-kubernetes-objects/kustomization.md)
