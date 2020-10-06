@@ -11,12 +11,10 @@
     * [集群管理](concepts/cluster-administration/_index.md)
     * [安装扩展（Addons）](concepts/cluster-administration/addons.md)
     * [证书](concepts/cluster-administration/certificates.md)
-    * [控制器管理器指标](concepts/cluster-administration/controller-metrics.md)
     * [API 优先级和公平性](concepts/cluster-administration/flow-control.md)
     * [配置 kubelet 垃圾回收策略](concepts/cluster-administration/kubelet-garbage-collection.md)
     * [日志架构](concepts/cluster-administration/logging.md)
     * [管理资源](concepts/cluster-administration/manage-deployment.md)
-    * [Kubernetes 控制面的指标](concepts/cluster-administration/monitoring.md)
     * [集群网络系统](concepts/cluster-administration/networking.md)
     * [Kubernetes 中的代理](concepts/cluster-administration/proxies.md)
     * [系统日志](concepts/cluster-administration/system-logs.md)
@@ -724,9 +722,6 @@
       * [缩放你的应用](tutorials/kubernetes-basics/scale/_index.md)
     - Update
       * [更新你的应用](tutorials/kubernetes-basics/update/_index.md)
-  - Online Training
-    * [在线培训课程](tutorials/online-training/_index.md)
-    * [Kubernetes 在线培训概述](tutorials/online-training/overview.md)
   - Services
     * [Services](tutorials/services/_index.md)
     * [使用 Source IP](tutorials/services/source-ip.md)
