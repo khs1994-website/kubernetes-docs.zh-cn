@@ -460,7 +460,6 @@
       * [Kubeadm Upgrade Phase](reference/setup-tools/kubeadm/kubeadm-upgrade-phase.md)
       * [Kubeadm Upgrade](reference/setup-tools/kubeadm/kubeadm-upgrade.md)
       * [Kubeadm Version](reference/setup-tools/kubeadm/kubeadm-version.md)
-      * [kubeadm 概述](reference/setup-tools/kubeadm/kubeadm.md)
     * [安装工具](reference/setup-tools/_index.md)
   - Using Api
     * [使用 Kubernetes API](reference/using-api/_index.md)
