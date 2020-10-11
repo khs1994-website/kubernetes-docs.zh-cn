@@ -265,8 +265,8 @@
     * [标签](reference/glossary/label.md)
     * [Limit Range](reference/glossary/limitrange.md)
     * [日志](reference/glossary/logging.md)
-    * [清单](reference/glossary/mainfest.md)
     * [托管服务](reference/glossary/managed-service.md)
+    * [清单](reference/glossary/manifest.md)
     * [Master](reference/glossary/master.md)
     * [成员](reference/glossary/member.md)
     * [Minikube](reference/glossary/minikube.md)
@@ -643,6 +643,7 @@
     * [配置多个调度器](tasks/extend-kubernetes/configure-multiple-schedulers.md)
     * [使用 HTTP 代理访问 Kubernetes API](tasks/extend-kubernetes/http-proxy-access-api.md)
     * [安装一个扩展的 API server](tasks/extend-kubernetes/setup-extension-api-server.md)
+    * [设置 Konnectivity 服务](tasks/extend-kubernetes/setup-konnectivity.md)
   - Inject Data Application
     * [给应用注入数据](tasks/inject-data-application/_index.md)
     * [为容器设置启动时要执行的命令和参数](tasks/inject-data-application/define-command-argument-container.md)
@@ -737,4 +738,3 @@
   * [教程](tutorials/_index.md)
   * [你好 Minikube](tutorials/hello-minikube.md)
 * [生产级别的容器编排系统](README.md)
-* [Sitemap](sitemap.md)
