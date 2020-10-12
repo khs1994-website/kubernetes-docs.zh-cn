@@ -208,6 +208,7 @@
     * [CIDR](reference/glossary/cidr.md)
     * [CLA (贡献者许可协议)](reference/glossary/cla.md)
     * [云控制器管理器](reference/glossary/cloud-controller-manager.md)
+    * [云供应商（Cloud Provider）](reference/glossary/cloud-provider.md)
     * [集群架构师](reference/glossary/cluster-architect.md)
     * [集群基础设施](reference/glossary/cluster-infrastructure.md)
     * [集群操作](reference/glossary/cluster-operations.md)
@@ -240,6 +241,7 @@
     * [下游(消除歧义)](reference/glossary/downstream.md)
     * [动态卷供应](reference/glossary/dynamic-volume-provisioning.md)
     * [端点切片](reference/glossary/endpoint-slice.md)
+    * [端点（Endpoints）](reference/glossary/endpoint.md)
     * [临时容器](reference/glossary/ephemeral-container.md)
     * [Etcd](reference/glossary/etcd.md)
     * [扩展组件](reference/glossary/extensions.md)
@@ -302,6 +304,7 @@
     * [服务代理（Service Broker）](reference/glossary/service-broker.md)
     * [服务目录](reference/glossary/service-catalog.md)
     * [Service](reference/glossary/service.md)
+    * [混排切片（Shuffle Sharding）](reference/glossary/shuffle-sharding.md)
     * [SIG （特别兴趣小组）](reference/glossary/sig.md)
     * [Stateful Set](reference/glossary/statefulset.md)
     * [存储类别](reference/glossary/storage-class.md)
@@ -700,7 +703,6 @@
   - Tools
     * [安装工具](tasks/tools/_index.md)
     * [安装并配置 kubectl](tasks/tools/install-kubectl.md)
-    * [安装 Minikube](tasks/tools/install-minikube.md)
   * [任务](tasks/_index.md)
 - Tutorials
   - Clusters
@@ -736,5 +738,5 @@
     * [公开外部 IP 地址以访问集群中应用程序](tutorials/stateless-application/expose-external-ip-address.md)
     * [示例：使用 Redis 部署 PHP 留言板应用程序](tutorials/stateless-application/guestbook.md)
   * [教程](tutorials/_index.md)
-  * [你好 Minikube](tutorials/hello-minikube.md)
+  * [你好，Minikube](tutorials/hello-minikube.md)
 * [生产级别的容器编排系统](README.md)
