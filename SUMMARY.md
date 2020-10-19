@@ -176,6 +176,7 @@
     * [用户认证](reference/access-authn-authz/authentication.md)
     * [授权概述](reference/access-authn-authz/authorization.md)
     * [使用启动引导令牌（Bootstrap Tokens）认证](reference/access-authn-authz/bootstrap-tokens.md)
+    * [证书签名请求](reference/access-authn-authz/certificate-signing-requests.md)
     * [Kubernetes API 访问控制](reference/access-authn-authz/controlling-access.md)
     * [动态准入控制](reference/access-authn-authz/extensible-admission-controllers.md)
     * [使用 Node 鉴权](reference/access-authn-authz/node.md)
