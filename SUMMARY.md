@@ -540,8 +540,10 @@
   - Administer Cluster
     - Kubeadm
       * [用 kubeadm 进行管理](tasks/administer-cluster/kubeadm/_index.md)
+      * [添加 Windows 节点](tasks/administer-cluster/kubeadm/adding-windows-nodes.md)
       * [使用 kubeadm 进行证书管理](tasks/administer-cluster/kubeadm/kubeadm-certs.md)
       * [升级 kubeadm 集群](tasks/administer-cluster/kubeadm/kubeadm-upgrade.md)
+      * [升级 Windows 节点](tasks/administer-cluster/kubeadm/upgrading-windows-nodes.md)
     - Manage Resources
       * [管理内存，CPU 和 API 资源](tasks/administer-cluster/manage-resources/_index.md)
       * [为命名空间配置 CPU 最小和最大约束](tasks/administer-cluster/manage-resources/cpu-constraint-namespace.md)
@@ -589,7 +591,7 @@
     * [在运行中的集群上重新配置节点的 kubelet](tasks/administer-cluster/reconfigure-kubelet.md)
     * [为系统守护进程预留计算资源](tasks/administer-cluster/reserve-compute-resources.md)
     * [Kubernetes 云管理控制器](tasks/administer-cluster/running-cloud-controller.md)
-    * [确保 PodDisruptionBudget 的前提下安全地清空一个节点](tasks/administer-cluster/safely-drain-node.md)
+    * [确保 PodDisruptionBudget 的前提下安全地清空一个{{< glossary_tooltip text="节点" term_id="node" >}}](tasks/administer-cluster/safely-drain-node.md)
     * [保护集群安全](tasks/administer-cluster/securing-a-cluster.md)
     * [在 Kubernetes 集群中使用 sysctl](tasks/administer-cluster/sysctl-cluster.md)
     * [控制节点上的拓扑管理策略](tasks/administer-cluster/topology-manager.md)
