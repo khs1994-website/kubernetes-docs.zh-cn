@@ -458,6 +458,7 @@
         * [Kubeadm Version](reference/setup-tools/kubeadm/generated/kubeadm_version.md)
         * [Kubeadm](reference/setup-tools/kubeadm/generated/kubeadm.md)
       * [Kubeadm](reference/setup-tools/kubeadm/_index.md)
+      * [实现细节](reference/setup-tools/kubeadm/implementation-details.md)
       * [Kubeadm Alpha](reference/setup-tools/kubeadm/kubeadm-alpha.md)
       * [Kubeadm Config](reference/setup-tools/kubeadm/kubeadm-config.md)
       * [Kubeadm Init Phase](reference/setup-tools/kubeadm/kubeadm-init-phase.md)
