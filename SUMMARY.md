@@ -608,6 +608,7 @@
     * [用节点亲和性把 Pods 分配到节点](tasks/configure-pod-container/assign-pods-nodes-using-node-affinity.md)
     * [将 Pod 分配给节点](tasks/configure-pod-container/assign-pods-nodes.md)
     * [为容器的生命周期事件设置处理函数](tasks/configure-pod-container/attach-handler-lifecycle-event.md)
+    * [为 Windows Pod 和容器配置 GMSA](tasks/configure-pod-container/configure-gmsa.md)
     * [配置存活、就绪和启动探测器](tasks/configure-pod-container/configure-liveness-readiness-startup-probes.md)
     * [配置 Pod 以使用 PersistentVolume 作为存储](tasks/configure-pod-container/configure-persistent-volume-storage.md)
     * [配置 Pod 使用 ConfigMap](tasks/configure-pod-container/configure-pod-configmap.md)
