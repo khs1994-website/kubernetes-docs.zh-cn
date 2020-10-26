@@ -161,6 +161,7 @@
     * [撰写新主题](contribute/style/write-new-topic.md)
   * [贡献 Kubernetes 文档](contribute/_index.md)
   * [高级贡献](contribute/advanced.md)
+  * [中文本地化样式指南](contribute/localization_zh.md)
   * [本地化 Kubernetes 文档](contribute/localization.md)
   * [提出内容改进建议](contribute/suggesting-improvements.md)
 - Doc Contributor Tools
@@ -748,6 +749,7 @@
   - Stateless Application
     * [无状态应用程序](tutorials/stateless-application/_index.md)
     * [公开外部 IP 地址以访问集群中应用程序](tutorials/stateless-application/expose-external-ip-address.md)
+    * [示例: 添加日志和指标到 PHP / Redis Guestbook 案例](tutorials/stateless-application/guestbook-logs-metrics-with-elk.md)
     * [示例：使用 Redis 部署 PHP 留言板应用程序](tutorials/stateless-application/guestbook.md)
   * [教程](tutorials/_index.md)
   * [你好，Minikube](tutorials/hello-minikube.md)
