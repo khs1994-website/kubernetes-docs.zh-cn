@@ -513,6 +513,7 @@
       * [在阿里云上运行 Kubernetes](setup/production-environment/turnkey/alibaba-cloud.md)
       * [在 AWS EC2 上运行 Kubernetes](setup/production-environment/turnkey/aws.md)
       * [在 Azure 上运行 Kubernetes](setup/production-environment/turnkey/azure.md)
+      * [在谷歌计算引擎上运行 Kubernetes](setup/production-environment/turnkey/gce.md)
       * [使用 IBM Cloud Private 在多个云上运行 Kubernetes](setup/production-environment/turnkey/icp.md)
       * [在腾讯云容器服务上运行 Kubernetes](setup/production-environment/turnkey/tencent.md)
     - Windows
