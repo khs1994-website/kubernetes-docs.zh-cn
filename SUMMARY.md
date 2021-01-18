@@ -64,6 +64,7 @@
   - Policy
     * [策略](concepts/policy/_index.md)
     * [限制范围](concepts/policy/limit-range.md)
+    * [进程 ID 约束与预留](concepts/policy/pid-limiting.md)
     * [Pod 安全策略](concepts/policy/pod-security-policy.md)
     * [资源配额](concepts/policy/resource-quotas.md)
   - Scheduling Eviction
