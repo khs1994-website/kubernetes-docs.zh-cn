@@ -289,7 +289,6 @@
     * [Pod 优先级（Pod Priority）](reference/glossary/pod-priority.md)
     * [Pod 安全策略](reference/glossary/pod-security-policy.md)
     * [Pod](reference/glossary/pod.md)
-    * [Pod Preset](reference/glossary/podpreset.md)
     * [抢占（Preemption）](reference/glossary/preemption.md)
     * [代理（Proxy）](reference/glossary/proxy.md)
     * [QoS 类（QoS Class）](reference/glossary/qos-class.md)
@@ -665,7 +664,6 @@
     * [使用 Secret 安全地分发凭证](tasks/inject-data-application/distribute-credentials-secure.md)
     * [通过文件将 Pod 信息呈现给容器](tasks/inject-data-application/downward-api-volume-expose-pod-information.md)
     * [通过环境变量将 Pod 信息呈现给容器](tasks/inject-data-application/environment-variable-expose-pod-information.md)
-    * [使用 PodPreset 将信息注入 Pod](tasks/inject-data-application/podpreset.md)
   - Job
     * [运行 Jobs](tasks/job/_index.md)
     * [使用 CronJob 运行自动化任务](tasks/job/automated-tasks-with-cron-jobs.md)
