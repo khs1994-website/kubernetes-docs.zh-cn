@@ -549,6 +549,8 @@
       * [为命名空间配置默认的内存请求和限制](tasks/administer-cluster/manage-resources/memory-default-namespace.md)
       * [为命名空间配置内存和 CPU 配额](tasks/administer-cluster/manage-resources/quota-memory-cpu-namespace.md)
       * [配置命名空间下 Pod 配额](tasks/administer-cluster/manage-resources/quota-pod-namespace.md)
+    - Migrating From Dockershim
+      * [从 dockershim 迁移](tasks/administer-cluster/migrating-from-dockershim/_index.md)
     - Network Policy Provider
       * [安装网络规则驱动](tasks/administer-cluster/network-policy-provider/_index.md)
       * [使用 Calico 提供 NetworkPolicy](tasks/administer-cluster/network-policy-provider/calico-network-policy.md)
