@@ -192,7 +192,7 @@
     * [Kube Proxy](reference/command-line-tools-reference/kube-proxy.md)
     * [Kube Scheduler](reference/command-line-tools-reference/kube-scheduler.md)
     * [Kubelet 认证/鉴权](reference/command-line-tools-reference/kubelet-authentication-authorization.md)
-    * [TLS Bootstrapping](reference/command-line-tools-reference/kubelet-tls-bootstrapping.md)
+    * [TLS 启动引导](reference/command-line-tools-reference/kubelet-tls-bootstrapping.md)
     * [Kubelet](reference/command-line-tools-reference/kubelet.md)
   - Glossary
     * [附加组件（Add-ons）](reference/glossary/addons.md)
