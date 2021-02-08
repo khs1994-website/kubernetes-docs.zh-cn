@@ -551,6 +551,7 @@
       * [配置命名空间下 Pod 配额](tasks/administer-cluster/manage-resources/quota-pod-namespace.md)
     - Migrating From Dockershim
       * [从 dockershim 迁移](tasks/administer-cluster/migrating-from-dockershim/_index.md)
+      * [检查弃用 Dockershim 对你的影响](tasks/administer-cluster/migrating-from-dockershim/check-if-dockershim-deprecation-affects-you.md)
     - Network Policy Provider
       * [安装网络规则驱动](tasks/administer-cluster/network-policy-provider/_index.md)
       * [使用 Calico 提供 NetworkPolicy](tasks/administer-cluster/network-policy-provider/calico-network-policy.md)
