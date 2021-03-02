@@ -750,8 +750,7 @@
   - Stateless Application
     * [无状态应用程序](tutorials/stateless-application/_index.md)
     * [公开外部 IP 地址以访问集群中应用程序](tutorials/stateless-application/expose-external-ip-address.md)
-    * [示例: 添加日志和指标到 PHP / Redis Guestbook 案例](tutorials/stateless-application/guestbook-logs-metrics-with-elk.md)
-    * [示例：使用 Redis 部署 PHP 留言板应用程序](tutorials/stateless-application/guestbook.md)
+    * [示例：使用 MongoDB 部署 PHP 留言板应用程序](tutorials/stateless-application/guestbook.md)
   * [教程](tutorials/_index.md)
   * [你好，Minikube](tutorials/hello-minikube.md)
 * [生产级别的容器编排系统](README.md)
