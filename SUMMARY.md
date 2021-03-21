@@ -475,7 +475,7 @@
       * [Kubeadm Version](reference/setup-tools/kubeadm/kubeadm-version.md)
     * [安装工具](reference/setup-tools/_index.md)
   - Using Api
-    * [使用 Kubernetes API](reference/using-api/_index.md)
+    * [API 概述](reference/using-api/_index.md)
     * [Kubernetes API 概念](reference/using-api/api-concepts.md)
     * [客户端库](reference/using-api/client-libraries.md)
     * [Kubernetes 弃用策略](reference/using-api/deprecation-policy.md)
@@ -563,6 +563,7 @@
     * [管理集群](tasks/administer-cluster/_index.md)
     * [使用 Kubernetes API 访问集群](tasks/administer-cluster/access-cluster-api.md)
     * [访问集群上运行的服务](tasks/administer-cluster/access-cluster-services.md)
+    * [证书](tasks/administer-cluster/certificates.md)
     * [改变默认 StorageClass](tasks/administer-cluster/change-default-storage-class.md)
     * [更改 PersistentVolume 的回收策略](tasks/administer-cluster/change-pv-reclaim-policy.md)
     * [升级集群](tasks/administer-cluster/cluster-upgrade.md)
@@ -692,6 +693,7 @@
     * [验证 IPv4/IPv6 双协议栈](tasks/network/validate-dual-stack.md)
   - Run Application
     * [运行应用](tasks/run-application/_index.md)
+    * [从 Pod 中访问 Kubernetes API](tasks/run-application/access-api-from-pod.md)
     * [为应用程序设置干扰预算（Disruption Budget）](tasks/run-application/configure-pdb.md)
     * [删除 StatefulSet](tasks/run-application/delete-stateful-set.md)
     * [强制删除 StatefulSet 类型的 Pods](tasks/run-application/force-delete-stateful-set-pod.md)
