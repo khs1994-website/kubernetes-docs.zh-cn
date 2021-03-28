@@ -713,7 +713,14 @@
     * [管理集群中的 TLS 认证](tasks/tls/managing-tls-in-a-cluster.md)
     * [手动轮换 CA 证书](tasks/tls/manual-rotation-of-ca-certificates.md)
   - Tools
+    - Included
+      * [通过 gcloud 安装 kubectl](tasks/tools/included/install-kubectl-gcloud.md)
+      * [后续内容](tasks/tools/included/kubectl-whats-next.md)
+      * [macOS 系统上的 bash 自动补全](tasks/tools/included/optional-kubectl-configs-bash-mac.md)
+      * [zsh 自动补全](tasks/tools/included/optional-kubectl-configs-zsh.md)
+      * [验证 kubectl 的安装效果](tasks/tools/included/verify-kubectl.md)
     * [安装工具](tasks/tools/_index.md)
+    * [在 macOS 系统上安装和设置 kubectl](tasks/tools/install-kubectl-macos.md)
     * [安装并配置 kubectl](tasks/tools/install-kubectl.md)
   * [任务](tasks/_index.md)
 - Tutorials
