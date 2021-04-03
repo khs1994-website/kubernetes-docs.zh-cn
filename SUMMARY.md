@@ -716,10 +716,12 @@
     - Included
       * [通过 gcloud 安装 kubectl](tasks/tools/included/install-kubectl-gcloud.md)
       * [后续内容](tasks/tools/included/kubectl-whats-next.md)
+      * [Linux 系统中的 bash 自动补全功能](tasks/tools/included/optional-kubectl-configs-bash-linux.md)
       * [macOS 系统上的 bash 自动补全](tasks/tools/included/optional-kubectl-configs-bash-mac.md)
       * [zsh 自动补全](tasks/tools/included/optional-kubectl-configs-zsh.md)
       * [验证 kubectl 的安装效果](tasks/tools/included/verify-kubectl.md)
     * [安装工具](tasks/tools/_index.md)
+    * [在 Linux 系统中安装并设置 kubectl](tasks/tools/install-kubectl-linux.md)
     * [在 macOS 系统上安装和设置 kubectl](tasks/tools/install-kubectl-macos.md)
     * [安装并配置 kubectl](tasks/tools/install-kubectl.md)
   * [任务](tasks/_index.md)
