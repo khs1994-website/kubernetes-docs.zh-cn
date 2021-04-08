@@ -334,7 +334,6 @@
   - Kubernetes Api
     * [API 参考](reference/kubernetes-api/_index.md)
     * [v1.20](reference/kubernetes-api/api-index.md)
-    * [知名标签（Label）、注解（Annotation）和 污点（Taint）](reference/kubernetes-api/labels-annotations-taints.md)
   - Scheduling
     * [调度](reference/scheduling/_index.md)
     * [调度器配置](reference/scheduling/config.md)
@@ -482,6 +481,7 @@
     * [Kubernetes API 健康端点](reference/using-api/health-checks.md)
     * [服务器端应用（Server-Side Apply）](reference/using-api/server-side-apply.md)
   * [参考](reference/_index.md)
+  * [常见的标签、注解和污点](reference/labels-annotations-taints.md)
   * [工具](reference/tools.md)
 - Setup
   - Best Practices
