@@ -723,6 +723,7 @@
     * [安装工具](tasks/tools/_index.md)
     * [在 Linux 系统中安装并设置 kubectl](tasks/tools/install-kubectl-linux.md)
     * [在 macOS 系统上安装和设置 kubectl](tasks/tools/install-kubectl-macos.md)
+    * [在 Windows 上安装 kubectl](tasks/tools/install-kubectl-windows.md)
     * [安装并配置 kubectl](tasks/tools/install-kubectl.md)
   * [任务](tasks/_index.md)
 - Tutorials
