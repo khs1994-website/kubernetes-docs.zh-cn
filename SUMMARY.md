@@ -93,6 +93,7 @@
     * [Ingress](concepts/services-networking/ingress.md)
     * [网络策略](concepts/services-networking/network-policies.md)
     * [服务拓扑（Service Topology）](concepts/services-networking/service-topology.md)
+    * [服务内部流量策略](concepts/services-networking/service-traffic-policy.md)
     * [服务](concepts/services-networking/service.md)
   - Storage
     * [存储](concepts/storage/_index.md)
