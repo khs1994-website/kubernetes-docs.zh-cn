@@ -64,6 +64,7 @@
   - Policy
     * [策略](concepts/policy/_index.md)
     * [限制范围](concepts/policy/limit-range.md)
+    * [节点资源管理器](concepts/policy/node-resource-managers.md)
     * [进程 ID 约束与预留](concepts/policy/pid-limiting.md)
     * [Pod 安全策略](concepts/policy/pod-security-policy.md)
     * [资源配额](concepts/policy/resource-quotas.md)
@@ -195,6 +196,9 @@
     * [Kubelet 认证/鉴权](reference/command-line-tools-reference/kubelet-authentication-authorization.md)
     * [TLS 启动引导](reference/command-line-tools-reference/kubelet-tls-bootstrapping.md)
     * [Kubelet](reference/command-line-tools-reference/kubelet.md)
+  - Config Api
+    * [Kube Proxy Configuration V 1 Alpha 1](reference/config-api/kube-proxy-config.v1alpha1.md)
+    * [Kubelet Configuration V 1 Beta 1](reference/config-api/kubelet-config.v1beta1.md)
   - Glossary
     * [附加组件（Add-ons）](reference/glossary/addons.md)
     * [准入控制器（Admission Controller）](reference/glossary/admission-controller.md)
