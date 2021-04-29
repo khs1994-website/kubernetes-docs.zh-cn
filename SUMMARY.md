@@ -493,7 +493,7 @@
     * [最佳实践](setup/best-practices/_index.md)
     * [PKI 证书和要求](setup/best-practices/certificates.md)
     * [创建大型集群](setup/best-practices/cluster-large.md)
-    * [运行于多区环境](setup/best-practices/multiple-zones.md)
+    * [运行于多可用区环境](setup/best-practices/multiple-zones.md)
     * [校验节点设置](setup/best-practices/node-conformance.md)
   - Learning Environment
     * [学习环境](setup/learning-environment/_index.md)
