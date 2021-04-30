@@ -104,6 +104,7 @@
     * [存储容量](concepts/storage/storage-capacity.md)
     * [存储类](concepts/storage/storage-classes.md)
     * [特定于节点的卷数限制](concepts/storage/storage-limits.md)
+    * [卷健康监测](concepts/storage/volume-health-monitoring.md)
     * [CSI 卷克隆](concepts/storage/volume-pvc-datasource.md)
     * [卷快照类](concepts/storage/volume-snapshot-classes.md)
     * [卷快照](concepts/storage/volume-snapshots.md)
@@ -573,6 +574,7 @@
     * [更改 PersistentVolume 的回收策略](tasks/administer-cluster/change-pv-reclaim-policy.md)
     * [升级集群](tasks/administer-cluster/cluster-upgrade.md)
     * [为 Kubernetes 运行 etcd 集群](tasks/administer-cluster/configure-upgrade-etcd.md)
+    * [将重复的控制平面迁至云控制器管理器](tasks/administer-cluster/controller-manager-leader-migration.md)
     * [使用 CoreDNS 进行服务发现](tasks/administer-cluster/coredns.md)
     * [控制节点上的 CPU 管理策略](tasks/administer-cluster/cpu-management-policies.md)
     * [声明网络策略](tasks/administer-cluster/declare-network-policy.md)
@@ -761,7 +763,7 @@
   - Stateful Application
     * [有状态的应用](tutorials/stateful-application/_index.md)
     * [StatefulSet 基础](tutorials/stateful-application/basic-stateful-set.md)
-    * [示例：使用 Stateful Sets 部署 Cassandra](tutorials/stateful-application/cassandra.md)
+    * [示例：使用 StatefulSet 部署 Cassandra](tutorials/stateful-application/cassandra.md)
     * [示例：使用 Persistent Volumes 部署 WordPress 和 MySQL](tutorials/stateful-application/mysql-wordpress-persistent-volume.md)
     * [运行 ZooKeeper，一个分布式协调系统](tutorials/stateful-application/zookeeper.md)
   - Stateless Application
