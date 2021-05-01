@@ -736,7 +736,7 @@
 - Tutorials
   - Clusters
     * [集群](tutorials/clusters/_index.md)
-    * [App Armor](tutorials/clusters/apparmor.md)
+    * [使用 AppArmor 限制容器对资源的访问](tutorials/clusters/apparmor.md)
     * [使用 Seccomp 限制容器的系统调用](tutorials/clusters/seccomp.md)
   - Configuration
     - Configure Java Microservice
