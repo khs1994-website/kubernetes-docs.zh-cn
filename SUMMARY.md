@@ -32,7 +32,7 @@
     * [容器环境](concepts/containers/container-environment.md)
     * [容器生命周期回调](concepts/containers/container-lifecycle-hooks.md)
     * [镜像](concepts/containers/images.md)
-    * [容器运行时类(Runtime Class)](concepts/containers/runtime-class.md)
+    * [容器运行时类（Runtime Class）](concepts/containers/runtime-class.md)
   - Extend Kubernetes
     - Api Extension
       * [扩展 Kubernetes API](concepts/extend-kubernetes/api-extension/_index.md)
@@ -93,9 +93,10 @@
     * [Ingress 控制器](concepts/services-networking/ingress-controllers.md)
     * [Ingress](concepts/services-networking/ingress.md)
     * [网络策略](concepts/services-networking/network-policies.md)
-    * [服务拓扑（Service Topology）](concepts/services-networking/service-topology.md)
+    * [使用拓扑键实现拓扑感知的流量路由](concepts/services-networking/service-topology.md)
     * [服务内部流量策略](concepts/services-networking/service-traffic-policy.md)
     * [服务](concepts/services-networking/service.md)
+    * [拓扑感知提示](concepts/services-networking/topology-aware-hints.md)
   - Storage
     * [存储](concepts/storage/_index.md)
     * [动态卷供应](concepts/storage/dynamic-provisioning.md)
