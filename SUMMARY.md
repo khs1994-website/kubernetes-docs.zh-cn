@@ -43,7 +43,6 @@
       * [设备插件](concepts/extend-kubernetes/compute-storage-net/device-plugins.md)
       * [网络插件](concepts/extend-kubernetes/compute-storage-net/network-plugins.md)
     * [扩展 Kubernetes](concepts/extend-kubernetes/_index.md)
-    * [扩展 Kubernetes 集群](concepts/extend-kubernetes/extend-cluster.md)
     * [Operator 模式](concepts/extend-kubernetes/operator.md)
     * [服务目录](concepts/extend-kubernetes/service-catalog.md)
   - Overview
@@ -200,6 +199,7 @@
     * [Kubelet](reference/command-line-tools-reference/kubelet.md)
   - Config Api
     * [Kube Proxy Configuration V 1 Alpha 1](reference/config-api/kube-proxy-config.v1alpha1.md)
+    * [Kube Scheduler Policy Configuration V 1](reference/config-api/kube-scheduler-policy-config.v1.md)
     * [Kubelet Configuration V 1 Beta 1](reference/config-api/kubelet-config.v1beta1.md)
   - Glossary
     * [附加组件（Add-ons）](reference/glossary/addons.md)
@@ -340,7 +340,6 @@
     * [kubectl 概述](reference/kubectl/overview.md)
   - Kubernetes Api
     * [API 参考](reference/kubernetes-api/_index.md)
-    * [v1.20](reference/kubernetes-api/api-index.md)
   - Scheduling
     * [调度](reference/scheduling/_index.md)
     * [调度器配置](reference/scheduling/config.md)
@@ -351,11 +350,6 @@
         * [创建 Kubeadm](reference/setup-tools/kubeadm/generated/_index.md)
         * [Kubeadm Alpha Kubeconfig User](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubeconfig_user.md)
         * [Kubeadm Alpha Kubeconfig](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubeconfig.md)
-        * [Kubeadm Alpha Kubelet Config Enable Dynamic](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubelet_config_enable-dynamic.md)
-        * [Kubeadm Alpha Kubelet Config](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubelet_config.md)
-        * [Kubeadm Alpha Kubelet](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubelet.md)
-        * [Kubeadm Alpha Selfhosting Pivot](reference/setup-tools/kubeadm/generated/kubeadm_alpha_selfhosting_pivot.md)
-        * [Kubeadm Alpha Selfhosting](reference/setup-tools/kubeadm/generated/kubeadm_alpha_selfhosting.md)
         * [Kubeadm Alpha](reference/setup-tools/kubeadm/generated/kubeadm_alpha.md)
         * [Kubeadm Certs Certificate Key](reference/setup-tools/kubeadm/generated/kubeadm_certs_certificate-key.md)
         * [Kubeadm Certs Check Expiration](reference/setup-tools/kubeadm/generated/kubeadm_certs_check-expiration.md)
@@ -381,7 +375,6 @@
         * [Kubeadm Config Print Init Defaults](reference/setup-tools/kubeadm/generated/kubeadm_config_print_init-defaults.md)
         * [Kubeadm Config Print Join Defaults](reference/setup-tools/kubeadm/generated/kubeadm_config_print_join-defaults.md)
         * [Kubeadm Config Print](reference/setup-tools/kubeadm/generated/kubeadm_config_print.md)
-        * [Kubeadm Config View](reference/setup-tools/kubeadm/generated/kubeadm_config_view.md)
         * [Kubeadm Config](reference/setup-tools/kubeadm/generated/kubeadm_config.md)
         * [Kubeadm Init Phase Addon All](reference/setup-tools/kubeadm/generated/kubeadm_init_phase_addon_all.md)
         * [Kubeadm Init Phase Addon Coredns](reference/setup-tools/kubeadm/generated/kubeadm_init_phase_addon_coredns.md)
@@ -489,12 +482,11 @@
     * [服务器端应用（Server-Side Apply）](reference/using-api/server-side-apply.md)
   * [参考](reference/_index.md)
   * [常见的标签、注解和污点](reference/labels-annotations-taints.md)
-  * [工具](reference/tools.md)
 - Setup
   - Best Practices
     * [最佳实践](setup/best-practices/_index.md)
     * [PKI 证书和要求](setup/best-practices/certificates.md)
-    * [创建大型集群](setup/best-practices/cluster-large.md)
+    * [大规模集群的注意事项](setup/best-practices/cluster-large.md)
     * [运行于多可用区环境](setup/best-practices/multiple-zones.md)
     * [校验节点设置](setup/best-practices/node-conformance.md)
   - Learning Environment
@@ -509,7 +501,6 @@
         * [利用 kubeadm 创建高可用集群](setup/production-environment/tools/kubeadm/high-availability.md)
         * [安装 kubeadm](setup/production-environment/tools/kubeadm/install-kubeadm.md)
         * [使用 kubeadm 配置集群中的每个 kubelet](setup/production-environment/tools/kubeadm/kubelet-integration.md)
-        * [配置您的 kubernetes 集群以自托管控制平台](setup/production-environment/tools/kubeadm/self-hosting.md)
         * [使用 kubeadm 创建一个高可用 etcd 集群](setup/production-environment/tools/kubeadm/setup-ha-etcd-with-kubeadm.md)
         * [对 kubeadm 进行故障排查](setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md)
       * [使用部署工具安装 Kubernetes](setup/production-environment/tools/_index.md)
@@ -584,7 +575,6 @@
     * [调试 DNS 问题](tasks/administer-cluster/dns-debugging-resolution.md)
     * [自动扩缩集群 DNS 服务](tasks/administer-cluster/dns-horizontal-autoscaling.md)
     * [启用/禁用 Kubernetes API](tasks/administer-cluster/enable-disable-api.md)
-    * [启用 EndpointSlices](tasks/administer-cluster/enabling-endpointslices.md)
     * [开启服务拓扑](tasks/administer-cluster/enabling-service-topology.md)
     * [静态加密 Secret 数据](tasks/administer-cluster/encrypt-data.md)
     * [为节点发布扩展资源](tasks/administer-cluster/extended-resource-node.md)
@@ -722,6 +712,7 @@
     * [手动轮换 CA 证书](tasks/tls/manual-rotation-of-ca-certificates.md)
   - Tools
     - Included
+      * [内含的工具](tasks/tools/included/_index.md)
       * [通过 gcloud 安装 kubectl](tasks/tools/included/install-kubectl-gcloud.md)
       * [后续内容](tasks/tools/included/kubectl-whats-next.md)
       * [Linux 系统中的 bash 自动补全功能](tasks/tools/included/optional-kubectl-configs-bash-linux.md)
@@ -732,7 +723,6 @@
     * [在 Linux 系统中安装并设置 kubectl](tasks/tools/install-kubectl-linux.md)
     * [在 macOS 系统上安装和设置 kubectl](tasks/tools/install-kubectl-macos.md)
     * [在 Windows 上安装 kubectl](tasks/tools/install-kubectl-windows.md)
-    * [安装并配置 kubectl](tasks/tools/install-kubectl.md)
   * [任务](tasks/_index.md)
 - Tutorials
   - Clusters
