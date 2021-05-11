@@ -198,7 +198,12 @@
     * [TLS 启动引导](reference/command-line-tools-reference/kubelet-tls-bootstrapping.md)
     * [Kubelet](reference/command-line-tools-reference/kubelet.md)
   - Config Api
+    * [配置 API](reference/config-api/_index.md)
+    * [Kube Apiserver Audit Configuration V 1](reference/config-api/apiserver-audit.v1.md)
+    * [Webhook Admission Configuration V 1](reference/config-api/apiserver-webhookadmission.v1.md)
+    * [Client Authentication V 1 Beta 1](reference/config-api/client-authentication.v1beta1.md)
     * [Kube Proxy Configuration V 1 Alpha 1](reference/config-api/kube-proxy-config.v1alpha1.md)
+    * [Kube Scheduler Configuration V 1 Beta 1](reference/config-api/kube-scheduler-config.v1beta1.md)
     * [Kube Scheduler Policy Configuration V 1](reference/config-api/kube-scheduler-policy-config.v1.md)
     * [Kubelet Configuration V 1 Beta 1](reference/config-api/kubelet-config.v1beta1.md)
   - Glossary
@@ -339,7 +344,7 @@
     * [kubectl 命令](reference/kubectl/kubectl-cmds.md)
     * [kubectl 概述](reference/kubectl/overview.md)
   - Kubernetes Api
-    * [API 参考](reference/kubernetes-api/_index.md)
+    * [Kubernetes API](reference/kubernetes-api/_index.md)
   - Scheduling
     * [调度](reference/scheduling/_index.md)
     * [调度器配置](reference/scheduling/config.md)
