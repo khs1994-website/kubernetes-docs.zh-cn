@@ -3,7 +3,7 @@
 - Concepts
   - Architecture
     * [Kubernetes 架构](concepts/architecture/_index.md)
-    * [云控制器管理器的基础概念](concepts/architecture/cloud-controller.md)
+    * [云控制器管理器](concepts/architecture/cloud-controller.md)
     * [控制面到节点通信](concepts/architecture/control-plane-node-communication.md)
     * [控制器](concepts/architecture/controller.md)
     * [节点](concepts/architecture/nodes.md)
@@ -541,6 +541,7 @@
     - Kubeadm
       * [用 kubeadm 进行管理](tasks/administer-cluster/kubeadm/_index.md)
       * [添加 Windows 节点](tasks/administer-cluster/kubeadm/adding-windows-nodes.md)
+      * [配置 cgroup 驱动](tasks/administer-cluster/kubeadm/configure-cgroup-driver.md)
       * [使用 kubeadm 进行证书管理](tasks/administer-cluster/kubeadm/kubeadm-certs.md)
       * [升级 kubeadm 集群](tasks/administer-cluster/kubeadm/kubeadm-upgrade.md)
       * [升级 Windows 节点](tasks/administer-cluster/kubeadm/upgrading-windows-nodes.md)
