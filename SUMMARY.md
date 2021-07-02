@@ -87,7 +87,6 @@
     * [Pod 安全性标准](concepts/security/pod-security-standards.md)
   - Services Networking
     * [服务、负载均衡和联网](concepts/services-networking/_index.md)
-    * [使用 HostAliases 向 Pod /etc/hosts 文件添加条目](concepts/services-networking/add-entries-to-pod-etc-hosts-with-host-aliases.md)
     * [使用 Service 连接到应用](concepts/services-networking/connect-applications-service.md)
     * [Pod 与 Service 的 DNS](concepts/services-networking/dns-pod-service.md)
     * [IPv4/IPv6 双协议栈](concepts/services-networking/dual-stack.md)
@@ -699,6 +698,7 @@
     * [使用 kubectl patch 更新 API 对象](tasks/manage-kubernetes-objects/update-api-object-kubectl-patch.md)
   - Network
     * [网络](tasks/network/_index.md)
+    * [使用 HostAliases 向 Pod /etc/hosts 文件添加条目](tasks/network/customize-hosts-file-for-pods.md)
     * [验证 IPv4/IPv6 双协议栈](tasks/network/validate-dual-stack.md)
   - Run Application
     * [运行应用](tasks/run-application/_index.md)
