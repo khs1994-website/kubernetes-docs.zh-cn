@@ -190,7 +190,7 @@
     * [管理服务账号](reference/access-authn-authz/service-accounts-admin.md)
     * [Webhook 模式](reference/access-authn-authz/webhook.md)
   - Command Line Tools Reference
-    * [命令行工具参考](reference/command-line-tools-reference/_index.md)
+    * [组件工具](reference/command-line-tools-reference/_index.md)
     * [特性门控](reference/command-line-tools-reference/feature-gates.md)
     * [Kube Apiserver](reference/command-line-tools-reference/kube-apiserver.md)
     * [Kube Controller Manager](reference/command-line-tools-reference/kube-controller-manager.md)
@@ -517,7 +517,7 @@
     - Windows
       * [Windows Kubernetes](setup/production-environment/windows/_index.md)
       * [Kubernetes 对 Windows 的支持](setup/production-environment/windows/intro-windows-in-kubernetes.md)
-      * [Kubernetes 中调度 Windows 容器的指南](setup/production-environment/windows/user-guide-windows-containers.md)
+      * [Kubernetes 中 Windows 容器的调度指南](setup/production-environment/windows/user-guide-windows-containers.md)
     * [生产环境](setup/production-environment/_index.md)
     * [容器运行时](setup/production-environment/container-runtimes.md)
     * [Turnkey 云解决方案](setup/production-environment/turnkey-solutions.md)
@@ -681,6 +681,8 @@
     * [使用工作队列进行粗粒度并行处理](tasks/job/coarse-parallel-processing-work-queue.md)
     * [使用工作队列进行精细的并行处理](tasks/job/fine-parallel-processing-work-queue.md)
     * [使用展开的方式进行并行处理](tasks/job/parallel-processing-expansion.md)
+  - Kubelet Credential Provider
+    * [配置 kubelet 镜像凭据提供程序](tasks/kubelet-credential-provider/kubelet-credential-provider.md)
   - Manage Daemon
     * [管理集群守护进程](tasks/manage-daemon/_index.md)
     * [对 DaemonSet 执行回滚](tasks/manage-daemon/rollback-daemon-set.md)
