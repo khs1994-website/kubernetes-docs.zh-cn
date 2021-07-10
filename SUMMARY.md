@@ -481,6 +481,8 @@
       * [Kubeadm Upgrade](reference/setup-tools/kubeadm/kubeadm-upgrade.md)
       * [Kubeadm Version](reference/setup-tools/kubeadm/kubeadm-version.md)
     * [安装工具](reference/setup-tools/_index.md)
+  - Tools
+    * [其他工具](reference/tools/_index.md)
   - Using Api
     * [API 概述](reference/using-api/_index.md)
     * [Kubernetes API 概念](reference/using-api/api-concepts.md)
