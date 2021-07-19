@@ -526,7 +526,7 @@
     * [Turnkey 云解决方案](setup/production-environment/turnkey-solutions.md)
   - Release
     * [Kubernetes 发行说明和版本偏差](setup/release/_index.md)
-    * [v1.18 发布说明](setup/release/notes.md)
+    * [v1.21 发行说明](setup/release/notes.md)
     * [Kubernetes 版本及版本偏差支持策略](setup/release/version-skew-policy.md)
   * [入门](setup/_index.md)
 - Tasks
