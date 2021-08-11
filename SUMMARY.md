@@ -25,7 +25,6 @@
     * [为容器管理资源](concepts/configuration/manage-resources-containers.md)
     * [使用 kubeconfig 文件组织集群访问](concepts/configuration/organize-cluster-access-kubeconfig.md)
     * [配置最佳实践](concepts/configuration/overview.md)
-    * [Pod 优先级与抢占](concepts/configuration/pod-priority-preemption.md)
     * [Secret](concepts/configuration/secret.md)
   - Containers
     * [容器](concepts/containers/_index.md)
