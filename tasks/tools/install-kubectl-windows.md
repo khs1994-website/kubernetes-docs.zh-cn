@@ -22,13 +22,13 @@ card:
 ## {{% heading "prerequisites" %}}
 
 <!-- 
-You must use a kubectl version that is within one minor version difference of your cluster. For example, a v{{< skew latestVersion >}} client can communicate with v{{< skew prevMinorVersion >}}, v{{< skew latestVersion >}}, and v{{< skew nextMinorVersion >}} control planes.
-Using the latest version of kubectl helps avoid unforeseen issues.
+You must use a kubectl version that is within one minor version difference of your cluster. For example, a v{{< skew currentVersion >}} client can communicate with v{{< skew currentVersionAddMinor -1 >}}, v{{< skew currentVersionAddMinor 0 >}}, and v{{< skew currentVersionAddMinor 1 >}} control planes.
+Using the latest compatible version of kubectl helps avoid unforeseen issues.
 -->
 kubectl 版本和集群版本之间的差异必须在一个小版本号内。
-例如：v{{< skew latestVersion >}} 版本的客户端能与 v{{< skew prevMinorVersion >}}、
-v{{< skew latestVersion >}} 和 v{{< skew nextMinorVersion >}} 版本的控制面通信。
-用最新版的 kubectl 有助于避免不可预见的问题。
+例如：v{{< skew currentVersion >}} 版本的客户端能与 v{{< skew currentVersionAddMinor -1 >}}、
+v{{< skew currentVersionAddMinor 0 >}} 和 v{{< skew currentVersionAddMinor 1 >}} 版本的控制面通信。
+用最新兼容版的 kubectl 有助于避免不可预见的问题。
 
 <!-- 
 ## Install kubectl on Windows
@@ -42,7 +42,6 @@ The following methods exist for installing kubectl on Windows:
 
 - [用 curl 在 Windows 上安装 kubectl](#install-kubectl-binary-with-curl-on-windows)
 - [在 Windows 上用 Chocolatey 或 Scoop 安装](#install-on-windows-using-chocolatey-or-scoop)
-- [作为谷歌云 SDK 的一部分，在 Windows 上安装](#install-on-windows-as-part-of-the-google-cloud-sdk)
 
 <!-- 
 ### Install kubectl binary with curl on Windows
@@ -59,7 +58,7 @@ The following methods exist for installing kubectl on Windows:
    如果你已安装了 `curl`,也可以使用此命令：
 
    ```powershell
-   curl -LO https://dl.k8s.io/release/{{< param "fullversion" >}}/bin/windows/amd64/kubectl.exe
+   curl -LO "https://dl.k8s.io/release/{{< param "fullversion" >}}/bin/windows/amd64/kubectl.exe"
    ```
 
    <!-- 
@@ -79,7 +78,7 @@ The following methods exist for installing kubectl on Windows:
    下载 kubectl 校验和文件：
 
    ```powershell
-   curl -LO https://dl.k8s.io/{{< param "fullversion" >}}/bin/windows/amd64/kubectl.exe.sha256
+   curl -LO "https://dl.k8s.io/{{< param "fullversion" >}}/bin/windows/amd64/kubectl.exe.sha256"
    ```
 
    <!-- 
@@ -211,13 +210,6 @@ Edit the config file with a text editor of your choice, such as Notepad.
 {{< /note >}}
 
 <!-- 
-### Install on Windows as part of the Google Cloud SDK
--->
-### 作为谷歌云 SDK 的一部分，在 Windows 上安装 {#install-on-windows-as-part-of-the-google-cloud-sdk}
-
-{{< include "included/install-kubectl-gcloud.md" >}}
-
-<!-- 
 ## Verify kubectl configuration
 -->
 ## 验证 kubectl 配置 {#verify-kubectl-configration}
@@ -225,26 +217,95 @@ Edit the config file with a text editor of your choice, such as Notepad.
 {{< include "included/verify-kubectl.md" >}}
 
 <!-- 
-## Optional kubectl configurations
+## Optional kubectl configurations and plugins
 
 ### Enable shell autocompletion
 -->
-## kubectl 可选配置 {#optional-kubectl-configurations}
+## kubectl 可选配置和插件 {#optional-kubectl-configurations}
 
 ### 启用 shell 自动补全功能 {#enable-shell-autocompletion}
 
-<!-- 
-kubectl provides autocompletion support for Bash and Zsh, which can save you a lot of typing.
+<!--
+kubectl provides autocompletion support for Bash, Zsh, Fish, and PowerShell, which can save you a lot of typing.
 
-Below are the procedures to set up autocompletion for Zsh, if you are running that on Windows.
+Below are the procedures to set up autocompletion for PowerShell.
 -->
-kubectl 为 Bash 和 Zsh 提供自动补全功能，可以减轻许多输入的负担。
+kubectl 为 Bash、Zsh、Fish 和 PowerShell 提供自动补全功能，可以为你节省大量的输入。
 
-下面是设置 Zsh 自动补全功能的操作步骤，前提是你在 Windows 上面运行的是 Zsh。
+下面是设置 PowerShell 自动补全功能的操作步骤。
 
-{{< include "included/optional-kubectl-configs-zsh.md" >}}
+{{< include "included/optional-kubectl-configs-pwsh.md" >}}
+
+<!--
+### Install `kubectl convert` plugin
+-->
+### 安装 `kubectl convert` 插件
+
+{{< include "included/kubectl-convert-overview.md" >}}
+
+<!--
+1. Download the latest release with the command:
+-->
+1. 用以下命令下载最新发行版：
+
+   ```powershell
+   curl -LO "https://dl.k8s.io/release/{{< param "fullversion" >}}/bin/windows/amd64/kubectl-convert.exe"
+   ```
+
+<!--
+1. Validate the binary (optional)
+
+   Download the kubectl-convert checksum file:
+-->
+1. 验证该可执行文件（可选步骤）
+   
+   下载 kubectl-convert 校验和文件：
+
+   ```powershell
+   curl -LO "https://dl.k8s.io/{{< param "fullversion" >}}/bin/windows/amd64/kubectl-convert.exe.sha256"
+   ```
+
+   <!--
+   Validate the kubectl-convert binary against the checksum file:
+
+   - Using Command Prompt to manually compare `CertUtil`'s output to the checksum file downloaded:
+   -->
+   基于校验和，验证 kubectl-convert 的可执行文件：
+
+   - 用提示的命令对 `CertUtil` 的输出和下载的校验和文件进行手动比较。
+   
+     ```cmd
+     CertUtil -hashfile kubectl-convert.exe SHA256
+     type kubectl-convert.exe.sha256
+     ```
+
+   <!--
+   - Using PowerShell to automate the verification using the `-eq` operator to get a `True` or `False` result:
+   -->
+   - 使用 PowerShell `-eq` 操作使验证自动化，获得 `True` 或者 `False` 的结果：
+   
+     ```powershell
+     $($(CertUtil -hashfile .\kubectl-convert.exe SHA256)[1] -replace " ", "") -eq $(type .\kubectl-convert.exe.sha256)
+     ```
+
+<!--
+1. Add the binary in to your `PATH`.
+
+1. Verify plugin is successfully installed
+-->
+1. 将可执行文件添加到你的 `PATH` 环境变量。
+
+1. 验证插件是否安装成功
+
+   ```shell
+   kubectl convert --help
+   ```
+
+   <!--
+   If you do not see an error, it means the plugin is successfully installed.
+   -->
+   如果你没有看到任何错误就代表插件安装成功了。
 
 ## {{% heading "whatsnext" %}}
 
 {{< include "included/kubectl-whats-next.md" >}}
-

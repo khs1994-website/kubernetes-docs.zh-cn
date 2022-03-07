@@ -22,7 +22,7 @@ For additional information on creating new content for the Kubernetes
 documentation, read the [Documentation Content Guide](/docs/contribute/style/content-guide/).
 
 Changes to the style guide are made by SIG Docs as a group. To propose a change
-or addition, [add it to the agenda](https://docs.google.com/document/d/1ddHwLK3kUMX1wVFIwlksjTk0MsqitBnWPe1LRa1Rx5A/edit) for an upcoming SIG Docs meeting, and attend the meeting to participate in the
+or addition, [add it to the agenda](https://bit.ly/sig-docs-agenda) for an upcoming SIG Docs meeting, and attend the meeting to participate in the
 discussion.
 -->
 本页讨论 Kubernetes 文档的样式指南。
@@ -34,7 +34,7 @@ discussion.
 
 样式指南的变更是 SIG Docs 团队集体决定。
 如要提议更改或新增条目，请先将其添加到下一次 SIG Docs 例会的
-[议程表](https://docs.google.com/document/d/1ddHwLK3kUMX1wVFIwlksjTk0MsqitBnWPe1LRa1Rx5A/edit)
+[议程表](https://bit.ly/sig-docs-agenda)
 上，并按时参加会议讨论。
 
 <!-- body -->
@@ -54,7 +54,7 @@ Kubernetes 文档使用带调整的 [Goldmark Markdown 解释器](https://github
 ## Language
 
 Kubernetes documentation has been translated into multiple languages
-(see [Localization READMEs](https://github.com/kubernetes/website/blob/master/README.md#localization-readmemds)).
+(see [Localization READMEs](https://github.com/kubernetes/website/blob/main/README.md#localization-readmemds)).
 
 The way of localizing the docs for a different language is described in [Localizing Kubernetes Documentation](/docs/contribute/localization/).
 
@@ -65,7 +65,7 @@ The English-language documentation uses U.S. English spelling and grammar.
 ## 语言 {#language}
 
 Kubernetes 文档已经被翻译为多个语种
-（参见 [本地化 READMEs](https://github.com/kubernetes/website/blob/master/README.md#localization-readmemds)）。
+（参见 [本地化 READMEs](https://github.com/kubernetes/website/blob/main/README.md#localization-readmemds)）。
 
 为文档提供一种新的语言翻译的途径可以在
 [本地化 Kubernetes 文档](/zh/docs/contribute/localization/)中找到。
@@ -123,7 +123,7 @@ For managing confidential data, consider using the Secret API. | For managing co
 {{< table caption = "使用 Pascal 风格大小写来给出 API 对象的约定" >}}
 可以 | 不可以
 :--| :-----
-该 HorizontalPodAutoscaler 负责... | 该 HorizontalPodAutoscaler 负责...
+该 HorizontalPodAutoscaler 负责... | 该 Horizontal pod autoscaler 负责...
 每个 PodList 是一个 Pod 组成的列表。 | 每个 Pod List 是一个由 pods 组成的列表。
 该 Volume 对象包含一个 `hostPath` 字段。 | 此卷对象包含一个 hostPath 字段。
 每个 ConfigMap 对象都是某个名字空间的一部分。| 每个 configMap 对象是某个名字空间的一部分。
@@ -1247,8 +1247,8 @@ Do | Don't
 :--| :-----
 Include one command in ... | Include just one command in ...
 Run the container ... | Simply run the container ...
-You can easily remove ... | You can remove ...
-These simple steps ... | These steps ...
+You can remove ... | You can easily remove ...
+These steps ... | These simple steps ...
 {{< /table >}}
 -->
 ### 避免使用隐含用户对某技术有一定理解的词汇
@@ -1261,8 +1261,8 @@ These simple steps ... | These steps ...
 :--| :-----
 在 ... 中包含一个命令 | 只需要在... 中包含一个命令
 运行容器 ... | 只需运行该容器...
-你可以很容易地移除... | 你可以移除...
-这些简单的步骤... | 这些步骤...
+你可以移除... | 你可以很容易地移除...
+这些步骤... | 这些简单的步骤...
 {{< /table >}}
 
 ## {{% heading "whatsnext" %}}

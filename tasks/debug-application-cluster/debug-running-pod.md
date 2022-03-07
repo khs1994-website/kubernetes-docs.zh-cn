@@ -110,30 +110,23 @@ kubectl exec -it cassandra -- sh
 <!--
 ## Debugging with an ephemeral debug container {#ephemeral-container}
 
-{{< feature-state state="alpha" for_k8s_version="v1.18" >}}
+{{< feature-state state="beta" for_k8s_version="v1.23" >}}
 
 {{< glossary_tooltip text="Ephemeral containers" term_id="ephemeral-container" >}}
 are useful for interactive troubleshooting when `kubectl exec` is insufficient
 because a container has crashed or a container image doesn't include debugging
 utilities, such as with [distroless images](
-https://github.com/GoogleContainerTools/distroless). `kubectl` has an alpha
-command that can create ephemeral containers for debugging beginning with version
-`v1.18`.
+https://github.com/GoogleContainerTools/distroless).
 -->
 ## 使用临时调试容器来进行调试 {#ephemeral-container}
 
-{{< feature-state state="alpha" for_k8s_version="v1.18" >}}
+{{< feature-state state="beta" for_k8s_version="v1.23" >}}
 
 当由于容器崩溃或容器镜像不包含调试程序（例如[无发行版镜像](https://github.com/GoogleContainerTools/distroless)等）
 而导致 `kubectl exec` 无法运行时，{{< glossary_tooltip text="临时容器" term_id="ephemeral-container" >}}对于排除交互式故障很有用。
-从 'v1.18' 版本开始，'kubectl' 有一个可以创建用于调试的临时容器的 alpha 命令。
 
 <!--
 ### Example debugging using ephemeral containers {#ephemeral-container-example}
-
-The examples in this section require the `EphemeralContainers` [feature gate](
-/docs/reference/command-line-tools-reference/feature-gates/) enabled in your
-cluster and `kubectl` version v1.18 or later.
 
 You can use the `kubectl debug` command to add ephemeral containers to a
 running Pod. First, create a pod for the example:
@@ -147,12 +140,6 @@ contain debugging utilities, but this method works with all container
 images.
 -->
 ## 使用临时容器来调试的例子 {#ephemeral-container-example}
-
-{{< note >}}
-本示例需要你的集群已经开启 `EphemeralContainers`
-[特性门控](/zh/docs/reference/command-line-tools-reference/feature-gates/)，
-`kubectl` 版本为 v1.18 或者更高。
-{{< /note >}}
 
 你可以使用 `kubectl debug` 命令来给正在运行中的 Pod 增加一个临时容器。
 首先，像示例一样创建一个 pod：
@@ -224,7 +211,7 @@ creates.
 The `--target` parameter must be supported by the {{< glossary_tooltip
 text="Container Runtime" term_id="container-runtime" >}}. When not supported,
 the Ephemeral Container may not be started, or it may be started with an
-isolated process namespace.
+isolated process namespace so that `ps` does not reveal processes in other containers.
 
 You can view the state of the newly created ephemeral container using `kubectl describe`:
 -->
@@ -234,7 +221,8 @@ You can view the state of the newly created ephemeral container using `kubectl d
 
 {{< note >}}
 {{< glossary_tooltip text="容器运行时" term_id="container-runtime" >}}必须支持`--target`参数。
-如果不支持，则临时容器可能不会启动，或者可能使用隔离的进程命名空间启动。
+如果不支持，则临时容器可能不会启动，或者可能使用隔离的进程命名空间启动，
+以便 `ps` 不显示其他容器内的进程。
 {{< /note >}}
 
 你可以使用 `kubectl describe` 查看新创建的临时容器的状态：
@@ -495,15 +483,43 @@ kubectl delete pod myapp myapp-debug
 <!--
 ## Debugging via a shell on the node {#node-shell-session}
 
-If none of these approaches work, you can find the host machine that the pod is
-running on and SSH into that host, but this should generally not be necessary
-given tools in the Kubernetes API. Therefore, if you find yourself needing to
-ssh into a machine, please file a feature request on GitHub describing your use
-case and why these tools are insufficient.
+If none of these approaches work, you can find the Node on which the Pod is
+running and create a privileged Pod running in the host namespaces. To create
+an interactive shell on a node using `kubectl debug`, run:
 -->
-## 在节点上通过 shell 来调试 {#node-shell-session}
+## 在节点上通过 shell 来进行调试 {#node-shell-session}
 
-如果这些方法都不起作用，你可以找到运行 Pod 的主机并通过 SSH 进入该主机，
-但是如果使用 Kubernetes API 中的工具，则通常不需要这样做。
-因此，如果你发现自己需要使用 ssh 进入主机，请在GitHub 上提交功能请求，
-以描述你的用例以及这些工具不足的原因。
+如果这些方法都不起作用，你可以找到运行 Pod 的节点，然后在节点上部署一个运行在宿主名字空间的特权 Pod。
+
+你可以通过`kubectl debug` 在节点上创建一个交互式 shell：
+
+```shell
+kubectl debug node/mynode -it --image=ubuntu
+```
+
+```
+Creating debugging pod node-debugger-mynode-pdx84 with container debugger on node mynode.
+If you don't see a command prompt, try pressing enter.
+root@ek8s:/#
+```
+
+<!--
+When creating a debugging session on a node, keep in mind that:
+
+* `kubectl debug` automatically generates the name of the new Pod based on
+  the name of the Node.
+* The container runs in the host IPC, Network, and PID namespaces.
+* The root filesystem of the Node will be mounted at `/host`.
+
+Don't forget to clean up the debugging Pod when you're finished with it:
+-->
+当在节点上创建调试会话，注意以下要点：
+* `kubectl debug` 基于节点的名字自动生成新的 Pod 的名字。
+* 新的调试容器运行在宿主命名空间里（IPC, 网络 还有PID命名空间）。
+* 节点的根文件系统会被挂载在 `/host`。
+
+当你完成节点调试时，不要忘记清理调试 Pod：
+
+```shell
+kubectl delete pod node-debugger-mynode-pdx84
+```

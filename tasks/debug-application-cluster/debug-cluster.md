@@ -131,7 +131,7 @@ This is an incomplete list of things that could go wrong, and how to adjust your
       - kubelets will not be able to reach it but will continue to run the same pods and provide the same service proxying
       - manual recovery or recreation of apiserver state necessary before apiserver is restarted
 -->
-### 具体情况:
+### 具体情况
 
 - API 服务器所在的 VM 关机或者 API 服务器崩溃
   - 结果
@@ -202,13 +202,13 @@ This is an incomplete list of things that could go wrong, and how to adjust your
 - Action: Use IaaS providers reliable storage (e.g. GCE PD or AWS EBS volume) for VMs with apiserver+etcd
   - Mitigates: Apiserver backing storage lost
 
-- Action: Use [high-availability](/docs/admin/high-availability) configuration
+- Action: Use [high-availability](/docs/setup/production-environment/tools/kubeadm/high-availability/) configuration
   - Mitigates: Control plane node shutdown or control plane components (scheduler, API server, controller-manager) crashing
     - Will tolerate one or more simultaneous node or component failures
   - Mitigates: API server backing storage (i.e., etcd's data directory) lost
     - Assumes HA (highly-available) etcd configuration
 -->
-### 缓解措施：
+### 缓解措施
 
 - 措施：对于 IaaS 上的 VMs，使用 IaaS 的自动 VM 重启功能
   - 缓解：API 服务器 VM 关机或 API 服务器崩溃
