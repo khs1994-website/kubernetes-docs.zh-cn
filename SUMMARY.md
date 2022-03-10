@@ -125,7 +125,7 @@
       * [Replica Set](concepts/workloads/controllers/replicaset.md)
       * [Replicationcontroller](concepts/workloads/controllers/replicationcontroller.md)
       * [Stateful Sets](concepts/workloads/controllers/statefulset.md)
-      * [已完成资源的 TTL 控制器](concepts/workloads/controllers/ttlafterfinished.md)
+      * [已完成 Job 的自动清理](concepts/workloads/controllers/ttlafterfinished.md)
     - Pods
       * [Pods](concepts/workloads/pods/_index.md)
       * [干扰（Disruptions）](concepts/workloads/pods/disruptions.md)
@@ -665,7 +665,7 @@
     * [从 PodSecurityPolicy 迁移到内置的 PodSecurity 准入控制器](tasks/configure-pod-container/migrate-from-psp.md)
     * [从私有仓库拉取镜像](tasks/configure-pod-container/pull-image-private-registry.md)
     * [配置 Pod 的服务质量](tasks/configure-pod-container/quality-service-pod.md)
-    * [为 Pod 或容器配置安全性上下文](tasks/configure-pod-container/security-context.md)
+    * [为 Pod 或容器配置安全上下文](tasks/configure-pod-container/security-context.md)
     * [在 Pod 中的容器之间共享进程命名空间](tasks/configure-pod-container/share-process-namespace.md)
     * [创建静态 Pod](tasks/configure-pod-container/static-pod.md)
     * [将 Docker Compose 文件转换为 Kubernetes 资源](tasks/configure-pod-container/translate-compose-kubernetes.md)
