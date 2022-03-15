@@ -24,7 +24,7 @@
   - Configuration
     * [配置](concepts/configuration/_index.md)
     * [Config Map](concepts/configuration/configmap.md)
-    * [为容器管理资源](concepts/configuration/manage-resources-containers.md)
+    * [为 Pod 和容器管理资源](concepts/configuration/manage-resources-containers.md)
     * [使用 kubeconfig 文件组织集群访问](concepts/configuration/organize-cluster-access-kubeconfig.md)
     * [配置最佳实践](concepts/configuration/overview.md)
     * [Secret](concepts/configuration/secret.md)
