@@ -216,7 +216,6 @@
     * [Kube Scheduler Configuration V 1 Beta 1](reference/config-api/kube-scheduler-config.v1beta1.md)
     * [kube-scheduler 配置 (v1beta2)](reference/config-api/kube-scheduler-config.v1beta2.md)
     * [kube-scheduler 配置 (v1beta3)](reference/config-api/kube-scheduler-config.v1beta3.md)
-    * [Kube Scheduler Policy Configuration V 1](reference/config-api/kube-scheduler-policy-config.v1.md)
     * [kubeadm 配置 (v1beta2)](reference/config-api/kubeadm-config.v1beta2.md)
     * [kubeadm 配置 (v1beta3)](reference/config-api/kubeadm-config.v1beta3.md)
     * [Kubelet Configuration V 1 Beta 1](reference/config-api/kubelet-config.v1beta1.md)
