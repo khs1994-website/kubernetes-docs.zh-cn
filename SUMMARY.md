@@ -367,6 +367,8 @@
     * [kubectl 命令](reference/kubectl/kubectl-cmds.md)
     * [kubectl 概述](reference/kubectl/overview.md)
   - Kubernetes Api
+    - Common Definitions
+      * [Local Object Reference](reference/kubernetes-api/common-definitions/local-object-reference.md)
     * [Kubernetes API](reference/kubernetes-api/_index.md)
   - Node
     * [节点参考信息](reference/node/_index.md)
