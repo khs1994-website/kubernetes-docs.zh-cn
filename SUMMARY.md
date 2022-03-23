@@ -368,8 +368,13 @@
     * [kubectl 概述](reference/kubectl/overview.md)
   - Kubernetes Api
     - Common Definitions
+      * [List Meta](reference/kubernetes-api/common-definitions/list-meta.md)
       * [Local Object Reference](reference/kubernetes-api/common-definitions/local-object-reference.md)
+      * [Typed Local Object Reference](reference/kubernetes-api/common-definitions/typed-local-object-reference.md)
     * [Kubernetes API](reference/kubernetes-api/_index.md)
+  - Labels Annotations Taints
+    * [常见的标签、注解和污点](reference/labels-annotations-taints/_index.md)
+    * [审计注解](reference/labels-annotations-taints/audit-annotations.md)
   - Node
     * [节点参考信息](reference/node/_index.md)
     * [关于 dockershim 移除和使用兼容 CRI 运行时的外部文章](reference/node/topics-on-dockershim-and-cri-compatible-runtimes.md)
@@ -519,7 +524,6 @@
     * [Kubernetes API 健康端点](reference/using-api/health-checks.md)
     * [服务器端应用（Server-Side Apply）](reference/using-api/server-side-apply.md)
   * [参考](reference/_index.md)
-  * [常见的标签、注解和污点](reference/labels-annotations-taints.md)
   * [端口和协议](reference/ports-and-protocols.md)
 - Setup
   - Best Practices
