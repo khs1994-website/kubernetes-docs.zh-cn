@@ -208,16 +208,17 @@
     * [配置 API](reference/config-api/_index.md)
     * [kube-apiserver Audit 配置 (v1)](reference/config-api/apiserver-audit.v1.md)
     * [kube-apiserver 配置 (v1)](reference/config-api/apiserver-config.v1.md)
+    * [kube-apiserver 配置 (v1alpha1)](reference/config-api/apiserver-config.v1alpha1.md)
     * [kube-apiserver 加密配置 (v1)](reference/config-api/apiserver-encryption.v1.md)
     * [WebhookAdmission 配置 (v1)](reference/config-api/apiserver-webhookadmission.v1.md)
     * [客户端身份认证（Client Authentication） (v1)](reference/config-api/client-authentication.v1.md)
     * [Client Authentication V 1 Beta 1](reference/config-api/client-authentication.v1beta1.md)
     * [kube-proxy 配置 (v1alpha1)](reference/config-api/kube-proxy-config.v1alpha1.md)
-    * [Kube Scheduler Configuration V 1 Beta 1](reference/config-api/kube-scheduler-config.v1beta1.md)
     * [kube-scheduler 配置 (v1beta2)](reference/config-api/kube-scheduler-config.v1beta2.md)
     * [kube-scheduler 配置 (v1beta3)](reference/config-api/kube-scheduler-config.v1beta3.md)
     * [kubeadm 配置 (v1beta2)](reference/config-api/kubeadm-config.v1beta2.md)
     * [kubeadm 配置 (v1beta3)](reference/config-api/kubeadm-config.v1beta3.md)
+    * [Kubelet 配置 (v1alpha1)](reference/config-api/kubelet-config.v1alpha1.md)
     * [Kubelet Configuration V 1 Beta 1](reference/config-api/kubelet-config.v1beta1.md)
   - Glossary
     * [附加组件（Add-ons）](reference/glossary/addons.md)
@@ -368,12 +369,17 @@
     * [kubectl 概述](reference/kubectl/overview.md)
   - Kubernetes Api
     - Common Definitions
+      * [公共定义](reference/kubernetes-api/common-definitions/_index.md)
+      * [删除选项](reference/kubernetes-api/common-definitions/delete-options.md)
+      * [标签选择器](reference/kubernetes-api/common-definitions/label-selector.md)
       * [List Meta](reference/kubernetes-api/common-definitions/list-meta.md)
       * [Local Object Reference](reference/kubernetes-api/common-definitions/local-object-reference.md)
+      * [Node Selector Requirement](reference/kubernetes-api/common-definitions/node-selector-requirement.md)
+      * [Object Field Selector](reference/kubernetes-api/common-definitions/object-field-selector.md)
       * [Typed Local Object Reference](reference/kubernetes-api/common-definitions/typed-local-object-reference.md)
     * [Kubernetes API](reference/kubernetes-api/_index.md)
   - Labels Annotations Taints
-    * [常见的标签、注解和污点](reference/labels-annotations-taints/_index.md)
+    * [众所周知的标签、注解和污点](reference/labels-annotations-taints/_index.md)
     * [审计注解](reference/labels-annotations-taints/audit-annotations.md)
   - Node
     * [节点参考信息](reference/node/_index.md)
