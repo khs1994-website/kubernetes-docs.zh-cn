@@ -376,6 +376,7 @@
       * [Local Object Reference](reference/kubernetes-api/common-definitions/local-object-reference.md)
       * [Node Selector Requirement](reference/kubernetes-api/common-definitions/node-selector-requirement.md)
       * [Object Field Selector](reference/kubernetes-api/common-definitions/object-field-selector.md)
+      * [Object Reference](reference/kubernetes-api/common-definitions/object-reference.md)
       * [Typed Local Object Reference](reference/kubernetes-api/common-definitions/typed-local-object-reference.md)
     * [Kubernetes API](reference/kubernetes-api/_index.md)
   - Labels Annotations Taints
