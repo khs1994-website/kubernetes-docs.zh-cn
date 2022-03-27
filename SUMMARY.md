@@ -377,6 +377,7 @@
       * [Node Selector Requirement](reference/kubernetes-api/common-definitions/node-selector-requirement.md)
       * [Object Field Selector](reference/kubernetes-api/common-definitions/object-field-selector.md)
       * [Object Reference](reference/kubernetes-api/common-definitions/object-reference.md)
+      * [Patch](reference/kubernetes-api/common-definitions/patch.md)
       * [Typed Local Object Reference](reference/kubernetes-api/common-definitions/typed-local-object-reference.md)
     * [Kubernetes API](reference/kubernetes-api/_index.md)
   - Labels Annotations Taints
@@ -603,7 +604,7 @@
       * [查明节点上所使用的容器运行时](tasks/administer-cluster/migrating-from-dockershim/find-out-runtime-you-use.md)
       * [从 dockershim 迁移遥测和安全代理](tasks/administer-cluster/migrating-from-dockershim/migrating-telemetry-and-security-agents.md)
     - Network Policy Provider
-      * [安装网络规则驱动](tasks/administer-cluster/network-policy-provider/_index.md)
+      * [安装网络策略驱动](tasks/administer-cluster/network-policy-provider/_index.md)
       * [使用 Antrea 提供 NetworkPolicy](tasks/administer-cluster/network-policy-provider/antrea-network-policy.md)
       * [使用 Calico 提供 NetworkPolicy](tasks/administer-cluster/network-policy-provider/calico-network-policy.md)
       * [使用 Cilium 提供 NetworkPolicy](tasks/administer-cluster/network-policy-provider/cilium-network-policy.md)
