@@ -165,6 +165,7 @@
     * [文档样式概述](contribute/style/_index.md)
     * [文档内容指南](contribute/style/content-guide.md)
     * [内容组织](contribute/style/content-organization.md)
+    * [图表指南](contribute/style/diagram-guide.md)
     * [页面内容类型](contribute/style/page-content-types.md)
     * [文档样式指南](contribute/style/style-guide.md)
     * [撰写新主题](contribute/style/write-new-topic.md)
@@ -378,6 +379,8 @@
       * [Object Field Selector](reference/kubernetes-api/common-definitions/object-field-selector.md)
       * [Object Reference](reference/kubernetes-api/common-definitions/object-reference.md)
       * [Patch](reference/kubernetes-api/common-definitions/patch.md)
+      * [Quantity](reference/kubernetes-api/common-definitions/quantity.md)
+      * [Resource Field Selector](reference/kubernetes-api/common-definitions/resource-field-selector.md)
       * [Typed Local Object Reference](reference/kubernetes-api/common-definitions/typed-local-object-reference.md)
     * [Kubernetes API](reference/kubernetes-api/_index.md)
   - Labels Annotations Taints
