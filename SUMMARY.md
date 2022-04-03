@@ -622,7 +622,7 @@
     * [更改 PersistentVolume 的回收策略](tasks/administer-cluster/change-pv-reclaim-policy.md)
     * [升级集群](tasks/administer-cluster/cluster-upgrade.md)
     * [为 Kubernetes 运行 etcd 集群](tasks/administer-cluster/configure-upgrade-etcd.md)
-    * [将重复的控制平面迁至云控制器管理器](tasks/administer-cluster/controller-manager-leader-migration.md)
+    * [迁移多副本的控制面以使用云控制器管理器](tasks/administer-cluster/controller-manager-leader-migration.md)
     * [使用 CoreDNS 进行服务发现](tasks/administer-cluster/coredns.md)
     * [控制节点上的 CPU 管理策略](tasks/administer-cluster/cpu-management-policies.md)
     * [声明网络策略](tasks/administer-cluster/declare-network-policy.md)
