@@ -649,7 +649,7 @@
     * [为系统守护进程预留计算资源](tasks/administer-cluster/reserve-compute-resources.md)
     * [Kubernetes 云管理控制器](tasks/administer-cluster/running-cloud-controller.md)
     * [安全地清空一个节点](tasks/administer-cluster/safely-drain-node.md)
-    * [保护集群安全](tasks/administer-cluster/securing-a-cluster.md)
+    * [保护集群](tasks/administer-cluster/securing-a-cluster.md)
     * [在 Kubernetes 集群中使用 sysctl](tasks/administer-cluster/sysctl-cluster.md)
     * [控制节点上的拓扑管理策略](tasks/administer-cluster/topology-manager.md)
     * [在集群中使用级联删除](tasks/administer-cluster/use-cascading-deletion.md)
