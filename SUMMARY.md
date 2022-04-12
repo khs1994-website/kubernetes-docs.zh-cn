@@ -68,7 +68,6 @@
     * [限制范围](concepts/policy/limit-range.md)
     * [节点资源管理器](concepts/policy/node-resource-managers.md)
     * [进程 ID 约束与预留](concepts/policy/pid-limiting.md)
-    * [Pod 安全策略](concepts/policy/pod-security-policy.md)
     * [资源配额](concepts/policy/resource-quotas.md)
   - Scheduling Eviction
     * [调度，抢占和驱逐](concepts/scheduling-eviction/_index.md)
