@@ -72,7 +72,7 @@
   - Scheduling Eviction
     * [调度，抢占和驱逐](concepts/scheduling-eviction/_index.md)
     * [API 发起的驱逐](concepts/scheduling-eviction/api-eviction.md)
-    * [将 Pod 分配给节点](concepts/scheduling-eviction/assign-pod-node.md)
+    * [将 Pod 指派给节点](concepts/scheduling-eviction/assign-pod-node.md)
     * [Kubernetes 调度器](concepts/scheduling-eviction/kube-scheduler.md)
     * [节点压力驱逐](concepts/scheduling-eviction/node-pressure-eviction.md)
     * [Pod 开销](concepts/scheduling-eviction/pod-overhead.md)
