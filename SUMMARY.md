@@ -376,6 +376,7 @@
       * [Local Object Reference](reference/kubernetes-api/common-definitions/local-object-reference.md)
       * [Node Selector Requirement](reference/kubernetes-api/common-definitions/node-selector-requirement.md)
       * [Object Field Selector](reference/kubernetes-api/common-definitions/object-field-selector.md)
+      * [Object Meta](reference/kubernetes-api/common-definitions/object-meta.md)
       * [Object Reference](reference/kubernetes-api/common-definitions/object-reference.md)
       * [Patch](reference/kubernetes-api/common-definitions/patch.md)
       * [Quantity](reference/kubernetes-api/common-definitions/quantity.md)
