@@ -368,6 +368,12 @@
     * [kubectl 命令](reference/kubectl/kubectl-cmds.md)
     * [kubectl 概述](reference/kubectl/overview.md)
   - Kubernetes Api
+    - Authentication Resources
+      * [身份认证资源](reference/kubernetes-api/authentication-resources/_index.md)
+    - Authorization Resources
+      * [鉴权资源](reference/kubernetes-api/authorization-resources/_index.md)
+    - Cluster Resources
+      * [集群资源](reference/kubernetes-api/cluster-resources/_index.md)
     - Common Definitions
       * [公共定义](reference/kubernetes-api/common-definitions/_index.md)
       * [删除选项](reference/kubernetes-api/common-definitions/delete-options.md)
@@ -381,7 +387,16 @@
       * [Patch](reference/kubernetes-api/common-definitions/patch.md)
       * [Quantity](reference/kubernetes-api/common-definitions/quantity.md)
       * [Resource Field Selector](reference/kubernetes-api/common-definitions/resource-field-selector.md)
+      * [Status](reference/kubernetes-api/common-definitions/status.md)
       * [Typed Local Object Reference](reference/kubernetes-api/common-definitions/typed-local-object-reference.md)
+    - Config And Storage Resources
+      * [配置和存储资源](reference/kubernetes-api/config-and-storage-resources/_index.md)
+    - Extend Resources
+      * [扩展资源](reference/kubernetes-api/extend-resources/_index.md)
+    - Service Resources
+      * [Service 资源](reference/kubernetes-api/service-resources/_index.md)
+    - Workload Resources
+      * [工作负载资源](reference/kubernetes-api/workload-resources/_index.md)
     * [Kubernetes API](reference/kubernetes-api/_index.md)
   - Labels Annotations Taints
     * [众所周知的标签、注解和污点](reference/labels-annotations-taints/_index.md)
