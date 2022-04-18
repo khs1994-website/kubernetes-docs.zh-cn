@@ -393,6 +393,8 @@
       * [配置和存储资源](reference/kubernetes-api/config-and-storage-resources/_index.md)
     - Extend Resources
       * [扩展资源](reference/kubernetes-api/extend-resources/_index.md)
+    - Policy Resources
+      * [策略资源](reference/kubernetes-api/policy-resources/_index.md)
     - Service Resources
       * [Service 资源](reference/kubernetes-api/service-resources/_index.md)
     - Workload Resources
