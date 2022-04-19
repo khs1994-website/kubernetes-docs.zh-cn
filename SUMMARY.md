@@ -212,7 +212,7 @@
     * [kube-apiserver 加密配置 (v1)](reference/config-api/apiserver-encryption.v1.md)
     * [WebhookAdmission 配置 (v1)](reference/config-api/apiserver-webhookadmission.v1.md)
     * [客户端身份认证（Client Authentication） (v1)](reference/config-api/client-authentication.v1.md)
-    * [Client Authentication V 1 Beta 1](reference/config-api/client-authentication.v1beta1.md)
+    * [客户端身份认证（Client Authentication）(v1beta1)](reference/config-api/client-authentication.v1beta1.md)
     * [kube-proxy 配置 (v1alpha1)](reference/config-api/kube-proxy-config.v1alpha1.md)
     * [kube-scheduler 配置 (v1beta2)](reference/config-api/kube-scheduler-config.v1beta2.md)
     * [kube-scheduler 配置 (v1beta3)](reference/config-api/kube-scheduler-config.v1beta3.md)
@@ -607,6 +607,7 @@
       * [添加 Windows 节点](tasks/administer-cluster/kubeadm/adding-windows-nodes.md)
       * [配置 cgroup 驱动](tasks/administer-cluster/kubeadm/configure-cgroup-driver.md)
       * [使用 kubeadm 进行证书管理](tasks/administer-cluster/kubeadm/kubeadm-certs.md)
+      * [重新配置 kubeadm 集群](tasks/administer-cluster/kubeadm/kubeadm-reconfigure.md)
       * [升级 kubeadm 集群](tasks/administer-cluster/kubeadm/kubeadm-upgrade.md)
       * [升级 Windows 节点](tasks/administer-cluster/kubeadm/upgrading-windows-nodes.md)
     - Manage Resources
