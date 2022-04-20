@@ -389,6 +389,8 @@
       * [Resource Field Selector](reference/kubernetes-api/common-definitions/resource-field-selector.md)
       * [Status](reference/kubernetes-api/common-definitions/status.md)
       * [Typed Local Object Reference](reference/kubernetes-api/common-definitions/typed-local-object-reference.md)
+    - Common Parameters
+      * [常用参数](reference/kubernetes-api/common-parameters/common-parameters.md)
     - Config And Storage Resources
       * [配置和存储资源](reference/kubernetes-api/config-and-storage-resources/_index.md)
     - Extend Resources
@@ -590,6 +592,7 @@
 - Tasks
   - Access Application Cluster
     * [访问集群中的应用程序](tasks/access-application-cluster/_index.md)
+    * [访问集群上运行的服务](tasks/access-application-cluster/access-cluster-services.md)
     * [访问集群](tasks/access-application-cluster/access-cluster.md)
     * [同 Pod 内的容器使用共享卷通信](tasks/access-application-cluster/communicate-containers-same-pod-shared-volume.md)
     * [配置对多集群的访问](tasks/access-application-cluster/configure-access-multiple-clusters.md)
@@ -634,7 +637,6 @@
       * [使用 Weave Net 提供 NetworkPolicy](tasks/administer-cluster/network-policy-provider/weave-network-policy.md)
     * [管理集群](tasks/administer-cluster/_index.md)
     * [使用 Kubernetes API 访问集群](tasks/administer-cluster/access-cluster-api.md)
-    * [访问集群上运行的服务](tasks/administer-cluster/access-cluster-services.md)
     * [证书](tasks/administer-cluster/certificates.md)
     * [改变默认 StorageClass](tasks/administer-cluster/change-default-storage-class.md)
     * [更改 PersistentVolume 的回收策略](tasks/administer-cluster/change-pv-reclaim-policy.md)
