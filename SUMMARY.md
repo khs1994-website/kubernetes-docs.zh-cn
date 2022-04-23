@@ -370,6 +370,7 @@
   - Kubernetes Api
     - Authentication Resources
       * [身份认证资源](reference/kubernetes-api/authentication-resources/_index.md)
+      * [Token Review](reference/kubernetes-api/authentication-resources/token-review-v1.md)
     - Authorization Resources
       * [鉴权资源](reference/kubernetes-api/authorization-resources/_index.md)
     - Cluster Resources
