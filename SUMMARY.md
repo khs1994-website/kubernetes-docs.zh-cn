@@ -219,7 +219,7 @@
     * [kubeadm 配置 (v1beta2)](reference/config-api/kubeadm-config.v1beta2.md)
     * [kubeadm 配置 (v1beta3)](reference/config-api/kubeadm-config.v1beta3.md)
     * [Kubelet 配置 (v1alpha1)](reference/config-api/kubelet-config.v1alpha1.md)
-    * [Kubelet Configuration V 1 Beta 1](reference/config-api/kubelet-config.v1beta1.md)
+    * [Kubelet 配置 (v1beta1)](reference/config-api/kubelet-config.v1beta1.md)
   - Glossary
     * [附加组件（Add-ons）](reference/glossary/addons.md)
     * [准入控制器（Admission Controller）](reference/glossary/admission-controller.md)
