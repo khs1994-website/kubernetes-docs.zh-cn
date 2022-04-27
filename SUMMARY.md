@@ -169,7 +169,7 @@
     * [文档样式指南](contribute/style/style-guide.md)
     * [撰写新主题](contribute/style/write-new-topic.md)
   * [为 Kubernetes 文档出一份力](contribute/_index.md)
-  * [高级贡献](contribute/advanced.md)
+  * [进阶贡献](contribute/advanced.md)
   * [查看站点分析](contribute/analytics.md)
   * [中文本地化样式指南](contribute/localization_zh.md)
   * [本地化 Kubernetes 文档](contribute/localization.md)
