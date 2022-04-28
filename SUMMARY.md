@@ -417,7 +417,6 @@
     - Kubeadm
       - [Generated](reference/setup-tools/kubeadm/generated/README.md)
         * [创建 Kubeadm](reference/setup-tools/kubeadm/generated/_index.md)
-        * [Kubeadm Alpha](reference/setup-tools/kubeadm/generated/kubeadm_alpha.md)
         * [Kubeadm Certs Certificate Key](reference/setup-tools/kubeadm/generated/kubeadm_certs_certificate-key.md)
         * [Kubeadm Certs Check Expiration](reference/setup-tools/kubeadm/generated/kubeadm_certs_check-expiration.md)
         * [Kubeadm Certs Generate Csr](reference/setup-tools/kubeadm/generated/kubeadm_certs_generate-csr.md)
