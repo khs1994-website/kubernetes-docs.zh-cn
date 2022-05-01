@@ -705,11 +705,20 @@
     * [在 Pod 中的容器之间共享进程命名空间](tasks/configure-pod-container/share-process-namespace.md)
     * [创建静态 Pod](tasks/configure-pod-container/static-pod.md)
     * [将 Docker Compose 文件转换为 Kubernetes 资源](tasks/configure-pod-container/translate-compose-kubernetes.md)
+  - Debug
+    - Debug Application
+      * [获取正在运行容器的 Shell](tasks/debug/debug-application/get-shell-running-container.md)
+    - Debug Cluster
+      * [审计](tasks/debug/debug-cluster/audit.md)
+      * [使用 telepresence 在本地开发和调试服务](tasks/debug/debug-cluster/local-debugging.md)
+      * [节点健康监测](tasks/debug/debug-cluster/monitor-node-health.md)
+      * [资源指标管道](tasks/debug/debug-cluster/resource-metrics-pipeline.md)
+      * [资源监控工具](tasks/debug/debug-cluster/resource-usage-monitoring.md)
   - Debug Application Cluster
     * [监控、日志和排错](tasks/debug-application-cluster/_index.md)
     * [审计](tasks/debug-application-cluster/audit.md)
     * [使用 crictl 对 Kubernetes 节点进行调试](tasks/debug-application-cluster/crictl.md)
-    * [应用自测与调试](tasks/debug-application-cluster/debug-application-introspection.md)
+    * [Debug Application Introspection](tasks/debug-application-cluster/debug-application-introspection.md)
     * [应用故障排查](tasks/debug-application-cluster/debug-application.md)
     * [集群故障排查](tasks/debug-application-cluster/debug-cluster.md)
     * [调试 Init 容器](tasks/debug-application-cluster/debug-init-containers.md)
@@ -719,8 +728,6 @@
     * [调试StatefulSet](tasks/debug-application-cluster/debug-stateful-set.md)
     * [确定 Pod 失败的原因](tasks/debug-application-cluster/determine-reason-pod-failure.md)
     * [获取正在运行容器的 Shell](tasks/debug-application-cluster/get-shell-running-container.md)
-    * [在本地开发和调试服务](tasks/debug-application-cluster/local-debugging.md)
-    * [节点健康监测](tasks/debug-application-cluster/monitor-node-health.md)
     * [资源指标管道](tasks/debug-application-cluster/resource-metrics-pipeline.md)
     * [资源监控工具](tasks/debug-application-cluster/resource-usage-monitoring.md)
     * [故障诊断](tasks/debug-application-cluster/troubleshooting.md)
