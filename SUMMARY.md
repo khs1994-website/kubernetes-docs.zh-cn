@@ -707,9 +707,12 @@
     * [将 Docker Compose 文件转换为 Kubernetes 资源](tasks/configure-pod-container/translate-compose-kubernetes.md)
   - Debug
     - Debug Application
+      * [Index](tasks/debug/debug-application/_index.md)
+      * [调试 Service](tasks/debug/debug-application/debug-service.md)
       * [获取正在运行容器的 Shell](tasks/debug/debug-application/get-shell-running-container.md)
     - Debug Cluster
       * [审计](tasks/debug/debug-cluster/audit.md)
+      * [使用 crictl 对 Kubernetes 节点进行调试](tasks/debug/debug-cluster/crictl.md)
       * [使用 telepresence 在本地开发和调试服务](tasks/debug/debug-cluster/local-debugging.md)
       * [节点健康监测](tasks/debug/debug-cluster/monitor-node-health.md)
       * [资源指标管道](tasks/debug/debug-cluster/resource-metrics-pipeline.md)
@@ -728,7 +731,6 @@
     * [调试StatefulSet](tasks/debug-application-cluster/debug-stateful-set.md)
     * [确定 Pod 失败的原因](tasks/debug-application-cluster/determine-reason-pod-failure.md)
     * [获取正在运行容器的 Shell](tasks/debug-application-cluster/get-shell-running-container.md)
-    * [资源指标管道](tasks/debug-application-cluster/resource-metrics-pipeline.md)
     * [资源监控工具](tasks/debug-application-cluster/resource-usage-monitoring.md)
     * [故障诊断](tasks/debug-application-cluster/troubleshooting.md)
   - Extend Kubectl
