@@ -708,6 +708,7 @@
   - Debug
     - Debug Application
       * [Index](tasks/debug/debug-application/_index.md)
+      * [调试运行中的 Pod](tasks/debug/debug-application/debug-running-pod.md)
       * [调试 Service](tasks/debug/debug-application/debug-service.md)
       * [获取正在运行容器的 Shell](tasks/debug/debug-application/get-shell-running-container.md)
     - Debug Cluster
