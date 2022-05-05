@@ -708,32 +708,22 @@
   - Debug
     - Debug Application
       * [Index](tasks/debug/debug-application/_index.md)
+      * [调试 Init 容器](tasks/debug/debug-application/debug-init-containers.md)
+      * [调试 Pod](tasks/debug/debug-application/debug-pods.md)
       * [调试运行中的 Pod](tasks/debug/debug-application/debug-running-pod.md)
       * [调试 Service](tasks/debug/debug-application/debug-service.md)
+      * [调试 StatefulSet](tasks/debug/debug-application/debug-statefulset.md)
+      * [确定 Pod 失败的原因](tasks/debug/debug-application/determine-reason-pod-failure.md)
       * [获取正在运行容器的 Shell](tasks/debug/debug-application/get-shell-running-container.md)
     - Debug Cluster
+      * [集群故障排查](tasks/debug/debug-cluster/_index.md)
       * [审计](tasks/debug/debug-cluster/audit.md)
       * [使用 crictl 对 Kubernetes 节点进行调试](tasks/debug/debug-cluster/crictl.md)
       * [使用 telepresence 在本地开发和调试服务](tasks/debug/debug-cluster/local-debugging.md)
       * [节点健康监测](tasks/debug/debug-cluster/monitor-node-health.md)
       * [资源指标管道](tasks/debug/debug-cluster/resource-metrics-pipeline.md)
       * [资源监控工具](tasks/debug/debug-cluster/resource-usage-monitoring.md)
-  - Debug Application Cluster
-    * [监控、日志和排错](tasks/debug-application-cluster/_index.md)
-    * [审计](tasks/debug-application-cluster/audit.md)
-    * [使用 crictl 对 Kubernetes 节点进行调试](tasks/debug-application-cluster/crictl.md)
-    * [Debug Application Introspection](tasks/debug-application-cluster/debug-application-introspection.md)
-    * [应用故障排查](tasks/debug-application-cluster/debug-application.md)
-    * [集群故障排查](tasks/debug-application-cluster/debug-cluster.md)
-    * [调试 Init 容器](tasks/debug-application-cluster/debug-init-containers.md)
-    * [调试 Pods 和 ReplicationControllers](tasks/debug-application-cluster/debug-pod-replication-controller.md)
-    * [调试运行中的 Pod](tasks/debug-application-cluster/debug-running-pod.md)
-    * [调试 Service](tasks/debug-application-cluster/debug-service.md)
-    * [调试StatefulSet](tasks/debug-application-cluster/debug-stateful-set.md)
-    * [确定 Pod 失败的原因](tasks/debug-application-cluster/determine-reason-pod-failure.md)
-    * [获取正在运行容器的 Shell](tasks/debug-application-cluster/get-shell-running-container.md)
-    * [资源监控工具](tasks/debug-application-cluster/resource-usage-monitoring.md)
-    * [故障诊断](tasks/debug-application-cluster/troubleshooting.md)
+    * [监控、日志和调试](tasks/debug/_index.md)
   - Extend Kubectl
     * [用插件扩展 kubectl](tasks/extend-kubectl/kubectl-plugins.md)
   - Extend Kubernetes
