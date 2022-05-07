@@ -737,6 +737,7 @@
     * [使用 HTTP 代理访问 Kubernetes API](tasks/extend-kubernetes/http-proxy-access-api.md)
     * [安装一个扩展的 API server](tasks/extend-kubernetes/setup-extension-api-server.md)
     * [设置 Konnectivity 服务](tasks/extend-kubernetes/setup-konnectivity.md)
+    * [使用 SOCKS5 代理访问 Kubernetes API](tasks/extend-kubernetes/socks5-proxy-access-api.md)
   - Inject Data Application
     * [给应用注入数据](tasks/inject-data-application/_index.md)
     * [为容器设置启动时要执行的命令和参数](tasks/inject-data-application/define-command-argument-container.md)
