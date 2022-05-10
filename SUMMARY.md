@@ -506,7 +506,6 @@
         * [Kubeadm Reset Phase Cleanup Node](reference/setup-tools/kubeadm/generated/kubeadm_reset_phase_cleanup-node.md)
         * [Kubeadm Reset Phase Preflight](reference/setup-tools/kubeadm/generated/kubeadm_reset_phase_preflight.md)
         * [Kubeadm Reset Phase Remove Etcd Member](reference/setup-tools/kubeadm/generated/kubeadm_reset_phase_remove-etcd-member.md)
-        * [Kubeadm Reset Phase Update Cluster Status](reference/setup-tools/kubeadm/generated/kubeadm_reset_phase_update-cluster-status.md)
         * [Kubeadm Reset Phase](reference/setup-tools/kubeadm/generated/kubeadm_reset_phase.md)
         * [Kubeadm Reset](reference/setup-tools/kubeadm/generated/kubeadm_reset.md)
         * [Kubeadm Token Create](reference/setup-tools/kubeadm/generated/kubeadm_token_create.md)
