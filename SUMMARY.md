@@ -148,7 +148,6 @@
     * [提交博客和案例分析](contribute/new-content/blogs-case-studies.md)
     * [为发行版本撰写功能特性文档](contribute/new-content/new-features.md)
     * [发起拉取请求（PR）](contribute/new-content/open-a-pr.md)
-    * [贡献新内容概述](contribute/new-content/overview.md)
   - Participate
     * [参与 SIG Docs](contribute/participate/_index.md)
     * [PR 管理者](contribute/participate/pr-wranglers.md)
