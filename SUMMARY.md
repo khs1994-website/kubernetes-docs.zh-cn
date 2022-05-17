@@ -155,7 +155,7 @@
   - Review
     * [评阅变更](contribute/review/_index.md)
     * [评阅人和批准人文档](contribute/review/for-approvers.md)
-    * [评阅 PRs](contribute/review/reviewing-prs.md)
+    * [评审 PR](contribute/review/reviewing-prs.md)
   - Style
     - Hugo Shortcodes
       * [例子](contribute/style/hugo-shortcodes/example2.md)
