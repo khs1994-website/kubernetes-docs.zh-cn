@@ -622,7 +622,6 @@
     - Migrating From Dockershim
       * [从 dockershim 迁移](tasks/administer-cluster/migrating-from-dockershim/_index.md)
       * [将节点上的容器运行时从 Docker Engine 改为 containerd](tasks/administer-cluster/migrating-from-dockershim/change-runtime-containerd.md)
-      * [检查弃用 Dockershim 对你的影响](tasks/administer-cluster/migrating-from-dockershim/check-if-dockershim-deprecation-affects-you.md)
       * [查明节点上所使用的容器运行时](tasks/administer-cluster/migrating-from-dockershim/find-out-runtime-you-use.md)
       * [从 dockershim 迁移遥测和安全代理](tasks/administer-cluster/migrating-from-dockershim/migrating-telemetry-and-security-agents.md)
     - Network Policy Provider
