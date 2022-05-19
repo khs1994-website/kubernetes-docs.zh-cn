@@ -369,6 +369,7 @@
   - Kubernetes Api
     - Authentication Resources
       * [身份认证资源](reference/kubernetes-api/authentication-resources/_index.md)
+      * [Service Account](reference/kubernetes-api/authentication-resources/service-account-v1.md)
       * [Token Review](reference/kubernetes-api/authentication-resources/token-review-v1.md)
     - Authorization Resources
       * [鉴权资源](reference/kubernetes-api/authorization-resources/_index.md)
@@ -401,13 +402,14 @@
       * [Service 资源](reference/kubernetes-api/service-resources/_index.md)
     - Workload Resources
       * [工作负载资源](reference/kubernetes-api/workload-resources/_index.md)
+      * [Priority Class](reference/kubernetes-api/workload-resources/priority-class-v1.md)
     * [Kubernetes API](reference/kubernetes-api/_index.md)
   - Labels Annotations Taints
     * [众所周知的标签、注解和污点](reference/labels-annotations-taints/_index.md)
     * [审计注解](reference/labels-annotations-taints/audit-annotations.md)
   - Node
     * [节点参考信息](reference/node/_index.md)
-    * [关于 dockershim 移除和使用兼容 CRI 运行时的外部文章](reference/node/topics-on-dockershim-and-cri-compatible-runtimes.md)
+    * [关于 dockershim 移除和使用兼容 CRI 运行时的文章](reference/node/topics-on-dockershim-and-cri-compatible-runtimes.md)
   - Scheduling
     * [调度](reference/scheduling/_index.md)
     * [调度器配置](reference/scheduling/config.md)
