@@ -377,8 +377,8 @@
       * [集群资源](reference/kubernetes-api/cluster-resources/_index.md)
     - Common Definitions
       * [公共定义](reference/kubernetes-api/common-definitions/_index.md)
-      * [删除选项](reference/kubernetes-api/common-definitions/delete-options.md)
-      * [标签选择器](reference/kubernetes-api/common-definitions/label-selector.md)
+      * [Delete Options](reference/kubernetes-api/common-definitions/delete-options.md)
+      * [Label Selector](reference/kubernetes-api/common-definitions/label-selector.md)
       * [List Meta](reference/kubernetes-api/common-definitions/list-meta.md)
       * [Local Object Reference](reference/kubernetes-api/common-definitions/local-object-reference.md)
       * [Node Selector Requirement](reference/kubernetes-api/common-definitions/node-selector-requirement.md)
