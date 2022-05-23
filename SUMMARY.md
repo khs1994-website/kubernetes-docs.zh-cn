@@ -360,6 +360,7 @@
     * [Kubernetes 问题追踪](reference/issues-security/issues.md)
     * [Kubernetes 安全和信息披露](reference/issues-security/security.md)
   - [Kubectl](reference/kubectl/kubectl.md)
+    * [命令行工具 (kubectl)](reference/kubectl/_index.md)
     * [kubectl 备忘单](reference/kubectl/cheatsheet.md)
     * [kubectl 的用法约定](reference/kubectl/conventions.md)
     * [适用于 Docker 用户的 kubectl](reference/kubectl/docker-cli-to-kubectl.md)
