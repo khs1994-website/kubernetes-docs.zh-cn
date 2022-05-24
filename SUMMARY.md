@@ -269,6 +269,7 @@
     * [设备插件（Device Plugin）](reference/glossary/device-plugin.md)
     * [干扰（Disruption）](reference/glossary/disruption.md)
     * [Docker](reference/glossary/docker.md)
+    * [Dockershim](reference/glossary/dockershim.md)
     * [下游（Downstream）](reference/glossary/downstream.md)
     * [动态卷供应（Dynamic Volume Provisioning）](reference/glossary/dynamic-volume-provisioning.md)
     * [Endpoint Slice](reference/glossary/endpoint-slice.md)
@@ -374,8 +375,10 @@
       * [Token Review](reference/kubernetes-api/authentication-resources/token-review-v1.md)
     - Authorization Resources
       * [鉴权资源](reference/kubernetes-api/authorization-resources/_index.md)
+      * [Cluster Role Binding](reference/kubernetes-api/authorization-resources/cluster-role-binding-v1.md)
     - Cluster Resources
       * [集群资源](reference/kubernetes-api/cluster-resources/_index.md)
+      * [Binding](reference/kubernetes-api/cluster-resources/binding-v1.md)
     - Common Definitions
       * [公共定义](reference/kubernetes-api/common-definitions/_index.md)
       * [Delete Options](reference/kubernetes-api/common-definitions/delete-options.md)
