@@ -367,7 +367,6 @@
     * [适用于 Docker 用户的 kubectl](reference/kubectl/docker-cli-to-kubectl.md)
     * [JSONPath 支持](reference/kubectl/jsonpath.md)
     * [kubectl 命令](reference/kubectl/kubectl-cmds.md)
-    * [kubectl 概述](reference/kubectl/overview.md)
   - Kubernetes Api
     - Authentication Resources
       * [身份认证资源](reference/kubernetes-api/authentication-resources/_index.md)
@@ -376,6 +375,7 @@
     - Authorization Resources
       * [鉴权资源](reference/kubernetes-api/authorization-resources/_index.md)
       * [Cluster Role Binding](reference/kubernetes-api/authorization-resources/cluster-role-binding-v1.md)
+      * [Cluster Role](reference/kubernetes-api/authorization-resources/cluster-role-v1.md)
     - Cluster Resources
       * [集群资源](reference/kubernetes-api/cluster-resources/_index.md)
       * [Binding](reference/kubernetes-api/cluster-resources/binding-v1.md)
@@ -640,7 +640,7 @@
       * [使用 Weave Net 提供 NetworkPolicy](tasks/administer-cluster/network-policy-provider/weave-network-policy.md)
     * [管理集群](tasks/administer-cluster/_index.md)
     * [使用 Kubernetes API 访问集群](tasks/administer-cluster/access-cluster-api.md)
-    * [证书](tasks/administer-cluster/certificates.md)
+    * [手动生成证书](tasks/administer-cluster/certificates.md)
     * [改变默认 StorageClass](tasks/administer-cluster/change-default-storage-class.md)
     * [更改 PersistentVolume 的回收策略](tasks/administer-cluster/change-pv-reclaim-policy.md)
     * [升级集群](tasks/administer-cluster/cluster-upgrade.md)
