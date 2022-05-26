@@ -376,6 +376,8 @@
       * [鉴权资源](reference/kubernetes-api/authorization-resources/_index.md)
       * [Cluster Role Binding](reference/kubernetes-api/authorization-resources/cluster-role-binding-v1.md)
       * [Cluster Role](reference/kubernetes-api/authorization-resources/cluster-role-v1.md)
+      * [Role Binding](reference/kubernetes-api/authorization-resources/role-binding-v1.md)
+      * [Role](reference/kubernetes-api/authorization-resources/role-v1.md)
     - Cluster Resources
       * [集群资源](reference/kubernetes-api/cluster-resources/_index.md)
       * [Binding](reference/kubernetes-api/cluster-resources/binding-v1.md)
