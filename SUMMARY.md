@@ -114,6 +114,8 @@
     * [卷快照类](concepts/storage/volume-snapshot-classes.md)
     * [卷快照](concepts/storage/volume-snapshots.md)
     * [卷](concepts/storage/volumes.md)
+  - Windows
+    * [Kubernetes 中的 Windows](concepts/windows/_index.md)
   - Workloads
     - Controllers
       * [工作负载资源](concepts/workloads/controllers/_index.md)
