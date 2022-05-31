@@ -378,6 +378,7 @@
       * [鉴权资源](reference/kubernetes-api/authorization-resources/_index.md)
       * [Cluster Role Binding](reference/kubernetes-api/authorization-resources/cluster-role-binding-v1.md)
       * [Cluster Role](reference/kubernetes-api/authorization-resources/cluster-role-v1.md)
+      * [Local Subject Access Review](reference/kubernetes-api/authorization-resources/local-subject-access-review-v1.md)
       * [Role Binding](reference/kubernetes-api/authorization-resources/role-binding-v1.md)
       * [Role](reference/kubernetes-api/authorization-resources/role-v1.md)
       * [Self Subject Access Review](reference/kubernetes-api/authorization-resources/self-subject-access-review-v1.md)
@@ -635,7 +636,9 @@
     - Migrating From Dockershim
       * [从 dockershim 迁移](tasks/administer-cluster/migrating-from-dockershim/_index.md)
       * [将节点上的容器运行时从 Docker Engine 改为 containerd](tasks/administer-cluster/migrating-from-dockershim/change-runtime-containerd.md)
+      * [检查弃用 Dockershim 是否对你有影响](tasks/administer-cluster/migrating-from-dockershim/check-if-dockershim-removal-affects-you.md)
       * [查明节点上所使用的容器运行时](tasks/administer-cluster/migrating-from-dockershim/find-out-runtime-you-use.md)
+      * [将 Docker Engine 节点从 dockershim 迁移到 cri-dockerd](tasks/administer-cluster/migrating-from-dockershim/migrate-dockershim-dockerd.md)
       * [从 dockershim 迁移遥测和安全代理](tasks/administer-cluster/migrating-from-dockershim/migrating-telemetry-and-security-agents.md)
     - Network Policy Provider
       * [安装网络策略驱动](tasks/administer-cluster/network-policy-provider/_index.md)
