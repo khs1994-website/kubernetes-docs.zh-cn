@@ -87,6 +87,7 @@
     * [云原生安全概述](concepts/security/overview.md)
     * [Pod 安全性准入](concepts/security/pod-security-admission.md)
     * [Pod 安全性标准](concepts/security/pod-security-standards.md)
+    * [Windows 节点的安全性](concepts/security/windows-security.md)
   - Services Networking
     * [服务、负载均衡和联网](concepts/services-networking/_index.md)
     * [使用 Service 连接到应用](concepts/services-networking/connect-applications-service.md)
@@ -387,6 +388,7 @@
     - Cluster Resources
       * [集群资源](reference/kubernetes-api/cluster-resources/_index.md)
       * [Binding](reference/kubernetes-api/cluster-resources/binding-v1.md)
+      * [Namespace](reference/kubernetes-api/cluster-resources/namespace-v1.md)
     - Common Definitions
       * [公共定义](reference/kubernetes-api/common-definitions/_index.md)
       * [Delete Options](reference/kubernetes-api/common-definitions/delete-options.md)
