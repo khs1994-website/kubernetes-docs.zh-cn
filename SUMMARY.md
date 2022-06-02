@@ -28,6 +28,7 @@
     * [使用 kubeconfig 文件组织集群访问](concepts/configuration/organize-cluster-access-kubeconfig.md)
     * [配置最佳实践](concepts/configuration/overview.md)
     * [Secret](concepts/configuration/secret.md)
+    * [Windows 节点的资源管理](concepts/configuration/windows-resource-management.md)
   - Containers
     * [容器](concepts/containers/_index.md)
     * [容器环境](concepts/containers/container-environment.md)
