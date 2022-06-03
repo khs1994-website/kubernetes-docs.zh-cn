@@ -102,6 +102,7 @@
     * [服务内部流量策略](concepts/services-networking/service-traffic-policy.md)
     * [服务](concepts/services-networking/service.md)
     * [拓扑感知提示](concepts/services-networking/topology-aware-hints.md)
+    * [Windows 网络](concepts/services-networking/windows-networking.md)
   - Storage
     * [存储](concepts/storage/_index.md)
     * [动态卷供应](concepts/storage/dynamic-provisioning.md)
