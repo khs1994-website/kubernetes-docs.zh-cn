@@ -119,6 +119,7 @@
     * [卷](concepts/storage/volumes.md)
   - Windows
     * [Kubernetes 中的 Windows](concepts/windows/_index.md)
+    * [Kubernetes 中的 Windows 容器调度指南](concepts/windows/user-guide.md)
   - Workloads
     - Controllers
       * [工作负载资源](concepts/workloads/controllers/_index.md)
@@ -418,6 +419,7 @@
       * [Service 资源](reference/kubernetes-api/service-resources/_index.md)
     - Workload Resources
       * [工作负载资源](reference/kubernetes-api/workload-resources/_index.md)
+      * [Controller Revision](reference/kubernetes-api/workload-resources/controller-revision-v1.md)
       * [Priority Class](reference/kubernetes-api/workload-resources/priority-class-v1.md)
     * [Kubernetes API](reference/kubernetes-api/_index.md)
   - Labels Annotations Taints
