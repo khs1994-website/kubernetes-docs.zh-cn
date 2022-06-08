@@ -88,6 +88,7 @@
     * [云原生安全概述](concepts/security/overview.md)
     * [Pod 安全性准入](concepts/security/pod-security-admission.md)
     * [Pod 安全性标准](concepts/security/pod-security-standards.md)
+    * [基于角色的访问控制良好实践](concepts/security/rbac-good-practices.md)
     * [Windows 节点的安全性](concepts/security/windows-security.md)
   - Services Networking
     * [服务、负载均衡和联网](concepts/services-networking/_index.md)
@@ -117,8 +118,10 @@
     * [卷快照类](concepts/storage/volume-snapshot-classes.md)
     * [卷快照](concepts/storage/volume-snapshots.md)
     * [卷](concepts/storage/volumes.md)
+    * [Windows 存储](concepts/storage/windows-storage.md)
   - Windows
     * [Kubernetes 中的 Windows](concepts/windows/_index.md)
+    * [Kubernetes 中的 Windows 容器](concepts/windows/intro.md)
     * [Kubernetes 中的 Windows 容器调度指南](concepts/windows/user-guide.md)
   - Workloads
     - Controllers
