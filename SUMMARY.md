@@ -87,6 +87,7 @@
     * [Kubernetes API 访问控制](concepts/security/controlling-access.md)
     * [云原生安全概述](concepts/security/overview.md)
     * [Pod 安全性准入](concepts/security/pod-security-admission.md)
+    * [Pod 安全策略](concepts/security/pod-security-policy.md)
     * [Pod 安全性标准](concepts/security/pod-security-standards.md)
     * [基于角色的访问控制良好实践](concepts/security/rbac-good-practices.md)
     * [Windows 节点的安全性](concepts/security/windows-security.md)
@@ -197,6 +198,8 @@
     * [使用启动引导令牌（Bootstrap Tokens）认证](reference/access-authn-authz/bootstrap-tokens.md)
     * [证书签名请求](reference/access-authn-authz/certificate-signing-requests.md)
     * [动态准入控制](reference/access-authn-authz/extensible-admission-controllers.md)
+    * [Kubelet 认证/鉴权](reference/access-authn-authz/kubelet-authn-authz.md)
+    * [TLS 启动引导](reference/access-authn-authz/kubelet-tls-bootstrapping.md)
     * [使用 Node 鉴权](reference/access-authn-authz/node.md)
     * [从 PodSecurityPolicy 映射到 Pod 安全性标准](reference/access-authn-authz/psp-to-pod-security-standards.md)
     * [使用 RBAC 鉴权](reference/access-authn-authz/rbac.md)
@@ -209,8 +212,6 @@
     * [Kube Controller Manager](reference/command-line-tools-reference/kube-controller-manager.md)
     * [Kube Proxy](reference/command-line-tools-reference/kube-proxy.md)
     * [Kube Scheduler](reference/command-line-tools-reference/kube-scheduler.md)
-    * [Kubelet 认证/鉴权](reference/command-line-tools-reference/kubelet-authentication-authorization.md)
-    * [TLS 启动引导](reference/command-line-tools-reference/kubelet-tls-bootstrapping.md)
     * [Kubelet](reference/command-line-tools-reference/kubelet.md)
   - Config Api
     * [配置 API](reference/config-api/_index.md)
@@ -228,6 +229,7 @@
     * [kubeadm 配置 (v1beta3)](reference/config-api/kubeadm-config.v1beta3.md)
     * [Kubelet 配置 (v1alpha1)](reference/config-api/kubelet-config.v1alpha1.md)
     * [Kubelet 配置 (v1beta1)](reference/config-api/kubelet-config.v1beta1.md)
+    * [Kubelet 凭据提供程序（CredentialProvider）（v1beta1）](reference/config-api/kubelet-credentialprovider.v1beta1.md)
   - Glossary
     * [附加组件（Add-ons）](reference/glossary/addons.md)
     * [准入控制器（Admission Controller）](reference/glossary/admission-controller.md)
@@ -745,6 +747,7 @@
       * [节点健康监测](tasks/debug/debug-cluster/monitor-node-health.md)
       * [资源指标管道](tasks/debug/debug-cluster/resource-metrics-pipeline.md)
       * [资源监控工具](tasks/debug/debug-cluster/resource-usage-monitoring.md)
+      * [Windows 调试小技巧](tasks/debug/debug-cluster/windows.md)
     * [监控、日志和调试](tasks/debug/_index.md)
   - Extend Kubectl
     * [用插件扩展 kubectl](tasks/extend-kubectl/kubectl-plugins.md)
